@@ -99,7 +99,7 @@ shield_type={
 
 
 
-def read_exp(file_save):
+def read_exp(file_save,type):
     exper_struc = ["dw", "dd", "dd", "dd",
                    "dd", "dd", "dd", "dd", "dd", "dd", "dd", "dd", "dd", "dd", "dd", "dd","dd",
                    "dd", "dd", "dd","dd", "dd", "dd", "dd", "dd", "dd", "dd", "dd", "dd"]
@@ -145,7 +145,13 @@ def read_exp(file_save):
                            "avr_damage_taken","losarea1","average_dist","losarea2",
                             "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty",
                             "empty","empty", "empty", "empty", "empty", "empty", "weight"]
+    exper_struc_empty = [" ", "flag", "index", "row",
+                            "empty", "empty", "empty", "empty", "empty",
+                            "empty", "empty", "empty", "empty",
+                            "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty",
+                            "empty", "empty", "empty", "empty", "empty", "empty", "weight"]
     header={
+        "0": exper_struc_empty,
         "25":exper_struc_row_25,
         "91": exper_struc_row_9_1,
         "12": exper_struc_row_12,
@@ -157,10 +163,16 @@ def read_exp(file_save):
 
 
     savef=open(file_save, 'rb')
-    writef = file_save.split("/")[-1][:-3] + "csv"
+    if type == 2:
+        savef.seek(1386819)
+        writef = file_save.split("/")[-1][:-3] + "_exp_strat" + ".csv"
+        struc_count = 100
+    elif type == 0:
+        writef = file_save.split("/")[-1][:-3] + "csv"
+        struc_count = os.path.getsize(file_save) // 114
     writef = open(writef, 'w')
     head_array=[]
-    struc_count = os.path.getsize(file_save)//114
+
     for z in range(struc_count):
         for n, l in enumerate(exper_struc):
             if l=="dw":
@@ -171,6 +183,7 @@ def read_exp(file_save):
                 entry1 = int.from_bytes(entry1, byteorder='little')
             if n==1:
                 entry2=entry1
+
             if n==2:
                 if entry2==1:
                     head_array.append(91)
@@ -179,7 +192,10 @@ def read_exp(file_save):
                 else:
                     head_array.append(entry1)
 
-    savef.seek(0)
+    if type==0:
+        savef.seek(0)
+    elif type==2:
+        savef.seek(1386819)
     for x in range(struc_count):
         for h in header[str(head_array[x])]:
             writef.write(h + ";")
@@ -203,9 +219,15 @@ def read_exp(file_save):
     return
 
 
-def read_brain(file_save):
+def read_brain(file_save,type):
     savef = open(file_save, 'rb')
-    writef = file_save.split("/")[-1][:-3] + "csv"
+    if type==0:
+        writef = file_save.split("/")[-1][:-3] + "csv"
+    elif type==2:
+        savef.seek(830919)
+        writef = file_save.split("/")[-1][:-3] + "_Brain_strat" + ".csv"
+
+
     writef = open(writef, 'w')
 #header part
     writef.write("index;row count;section;")
@@ -248,7 +270,11 @@ def read_weap(file_save,type):
     savef=open(file_save, 'rb')
     if type==1:
         savef.seek(448300)
-        writef = file_save.split("/")[-1][:-3] + "_weapexp" + ".csv"
+        writef = file_save.split("/")[-1][:-3] + "_weapexp_strat" + ".csv"
+    if type == 2:
+        savef.seek(773735)
+        writef = file_save.split("/")[-1][:-3] + "_weapexp_tact" + ".csv"
+
     else:
         writef=file_save.split("/")[-1][:-3]+"csv"
     writef = open(writef, 'w')
