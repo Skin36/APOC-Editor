@@ -7,16 +7,22 @@ struc_list = []
 #выравнивание первого элемента массива
 struc_list.append(0)
 
-with open('editor\\readsave\\save_offsets.js',encoding='utf8') as data_file:
-    save_data = json.load(data_file)
-
 with open('editor\\readsave\\key_value.js', encoding='utf8') as key_value:
     key_value = json.load(key_value)
 
 
 
+
 def read_save(file_save,root):
     # add dict for save strure
+    if file_save[-11:-3]=="TACTGAME":
+        with open('editor\\readsave\\tac_save_offsets.js', encoding='utf8') as data_file:
+            save_data = json.load(data_file)
+        entry_count=3
+    elif file_save[-11:-3]=="SAVEGAME":
+        with open('editor\\readsave\\save_offsets.js', encoding='utf8') as data_file:
+            save_data = json.load(data_file)
+        entry_count = 142
 
     cur_row = 1
     cur_column = 1
@@ -260,8 +266,8 @@ def read_save(file_save,root):
         top.focus_set()
         top.wait_window()
 
-#for x in range(1, 132) :
-    for x in range(1,142) :
+
+    for x in range(1,entry_count) :
         name = save_data[str(x)]["name"]
         type=save_data[str(x)]["type"]
 
@@ -324,7 +330,7 @@ def read_save(file_save,root):
     savef.close()
 
     #add botton 132
-    for y in range(1, 142):
+    for y in range(1, entry_count):
         #Добавляем кнопки
         name=save_data[str(y)]["name"]
         tooltip = save_data[str(y)]["comment"]
