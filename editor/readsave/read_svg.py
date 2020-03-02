@@ -18,7 +18,7 @@ def read_save(file_save,root):
     if file_save[-11:-3]=="TACTGAME":
         with open('editor\\readsave\\tac_save_offsets.js', encoding='utf8') as data_file:
             save_data = json.load(data_file)
-        entry_count=3
+        entry_count=8
     elif file_save[-11:-3]=="SAVEGAME":
         with open('editor\\readsave\\save_offsets.js', encoding='utf8') as data_file:
             save_data = json.load(data_file)

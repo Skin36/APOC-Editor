@@ -7,7 +7,7 @@
 					"sign":"string",
 					"comment":"No comment"
             },
-			
+
 	    "2":{
                     "name": "save_name",
 					"size": 41,
@@ -18,8 +18,8 @@
             },
 			
 		"3":{
-                    "name": "year",
-					"size": 2,
+                    "name": "x_lim",
+					"size": 4,
                     "type": "simple",
                     "enum":"False",
 					"sign":"False",
@@ -27,36 +27,157 @@
             },
 
 		"4":{
-                    "name": "month",
-					"size": 2,
+                    "name": "y_lim",
+					"size": 4,
                     "type": "simple",
                     "enum":"False",
 					"sign":"False",
 					"comment":"No Comment"
             },
 		"5":{
-                    "name": "week",
-					"size": 2,
+                    "name": "z_lim",
+					"size": 4,
                     "type": "simple",
                     "enum":"False",
 					"sign":"False",
 					"comment":"No Comment"
             },
 		"6":{
-                    "name": "day",
-					"size": 2,
+                    "name": "map_size",
+					"size": 4,
                     "type": "simple",
                     "enum":"False",
 					"sign":"False",
 					"comment":"No Comment"
             },
-		"7":{
-                    "name": "hour",
-					"size": 2,
-                    "type": "simple",
-                    "enum":"False",
+        "7":{
+                    "name": "building_dat",
+					"enum":"False",
+					"enum_type":"False",
+                    "struc_count": 1,
+                    "type": "struc",
 					"sign":"False",
-					"comment":"No Comment"
+					"comment":"unknown structure",
+					"struc_member":"13",
+					"struc":{
+                             "0":
+                                 {"name":"base_map_size_x",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "1":
+                                 {"name":"base_map_size_y",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "2":
+                                 {"name":"base_map_size_z",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "3":
+                                 {"name":"sizes_map_block_x",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "4":
+                                 {"name":"sizes_map_block_y",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "5":
+                                 {"name":"sizes_map_block_z",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "6":
+                                 {"name":"entrance_NESW",
+                                  "enum":"False",
+                                  "size":1,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "7":
+                                 {"name":"exit_NESW",
+                                  "enum":"False",
+                                  "size":1,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "8":
+                                 {"name":"min_entrance_levels",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "9":
+                                 {"name":"max_entrance_levels",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "10":
+                                 {"name":"min_exit_levels",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "11":
+                                 {"name":"max_entrance_levels_",
+                                  "enum":"False",
+                                  "size":1919,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "12":
+                                 {"name":"ind_destroyed_ground",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  }
+                            }
             },
 		
 		"8":{
@@ -79,7 +200,7 @@
 
 		"10":{
                     "name": "tick",
-					"size": 2,
+					"size": 4,
                     "type": "simple",
                     "enum":"False",
 					"sign":"False",
