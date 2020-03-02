@@ -40,7 +40,7 @@ def openai():
     b1_ai = Button(root,text="Open weapexp.dat", width=30, height=2, command=butCallback_AI1)
 
     def butCallback_AI2():
-        fileOpen = fd.askopenfile(defaultextension=".0*", filetypes=[("All types", ".0*")], initialdir="./SAVEGAME")
+        fileOpen = fd.askopenfile(defaultextension=".0*", filetypes=[("All types", "SAVEGAME.0*")], initialdir="./SAVEGAME")
         read_weap(fileOpen.name, 1)
         top = Toplevel(root)
         top.minsize(width=200, height=1)
@@ -49,38 +49,67 @@ def openai():
         aileb.grid(row=1, column=1, columnspan=2)
     b2_ai = Button(root,text="Open weapexp City save", width=30, height=2, command=butCallback_AI2)
 
-    b3_ai = Button(root,text="Open weapexp Tac save", width=30, height=2)
-    spr1_ai=ttk.Separator(root, orient = HORIZONTAL)
-
-
-    def butCallback_BR():
-        fileOpen = fd.askopenfile(defaultextension=".dat", filetypes=[("All types", "BRAIN*.dat")],
-                                  initialdir="./AIFILES")
-        read_brain(fileOpen.name)
+    def butCallback_AI3():
+        fileOpen = fd.askopenfile(defaultextension=".0*", filetypes=[("All types", "TACTGAME.0*")], initialdir="./SAVEGAME")
+        read_weap(fileOpen.name, 2)
         top = Toplevel(root)
         top.minsize(width=200, height=1)
         top.title("DUMP BRAIN")
         aileb = Label(top, text="DONE", width=30, height=2)
         aileb.grid(row=1, column=1, columnspan=2)
-    b4_ai = Button(root, text="Open brain.dat", width=30, height=2, command=butCallback_BR)
+    b3_ai = Button(root,text="Open weapexp Tac save", width=30, height=2, command=butCallback_AI3)
+    spr1_ai=ttk.Separator(root, orient = HORIZONTAL)
+
+
+    def butCallback_BR1():
+        fileOpen = fd.askopenfile(defaultextension=".dat", filetypes=[("All types", "BRAIN*.dat")],
+                                  initialdir="./AIFILES")
+        read_brain(fileOpen.name,0)
+        top = Toplevel(root)
+        top.minsize(width=200, height=1)
+        top.title("DUMP BRAIN")
+        aileb = Label(top, text="DONE", width=30, height=2)
+        aileb.grid(row=1, column=1, columnspan=2)
+    b4_ai = Button(root, text="Open brain.dat", width=30, height=2, command=butCallback_BR1)
     b5_ai = Button(root, text="Open brain City save", width=30, height=2)
-    b6_ai = Button(root, text="Open brain Tac save", width=30, height=2)
+
+    def butCallback_BR3():
+        fileOpen = fd.askopenfile(defaultextension=".dat", filetypes=[("All types", "TACTGAME.0*")],
+                                  initialdir="./SAVEGAME")
+        read_brain(fileOpen.name,2)
+        top = Toplevel(root)
+        top.minsize(width=200, height=1)
+        top.title("DUMP BRAIN")
+        aileb = Label(top, text="DONE", width=30, height=2)
+        aileb.grid(row=1, column=1, columnspan=2)
+    b6_ai = Button(root, text="Open brain Tac save", width=30, height=2, command=butCallback_BR3)
     spr2_ai = ttk.Separator(root, orient=HORIZONTAL)
 
 
 
-    def butCallback_exp():
+    def butCallback_exp1():
         fileOpen = fd.askopenfile(defaultextension=".dat", filetypes=[("All types", "EXPER*.dat")],
                                   initialdir="./AIFILES")
-        read_exp(fileOpen.name)
+        read_exp(fileOpen.name,0)
         top = Toplevel(root)
         top.minsize(width=200, height=1)
         top.title("DUMP EXPERIEN")
         aileb = Label(top, text="DONE", width=30, height=2)
         aileb.grid(row=1, column=1, columnspan=2)
-    b7_exp = Button(root, text="Open EXPERIEN.dat", width=30, height=2, command=butCallback_exp)
+    b7_exp = Button(root, text="Open EXPERIEN.dat", width=30, height=2, command=butCallback_exp1)
+
     b8_exp = Button(root, text="Open EXPERIEN City save", width=30, height=2)
-    b9_exp = Button(root, text="Open EXPERIEN Tac save", width=30, height=2)
+
+    def butCallback_exp2():
+        fileOpen = fd.askopenfile(defaultextension=".dat", filetypes=[("All types", "TACTGAME.0*")],
+                                  initialdir="./SAVEGAME")
+        read_exp(fileOpen.name,2)
+        top = Toplevel(root)
+        top.minsize(width=200, height=1)
+        top.title("DUMP EXPERIEN")
+        aileb = Label(top, text="DONE", width=30, height=2)
+        aileb.grid(row=1, column=1, columnspan=2)
+    b9_exp = Button(root, text="Open EXPERIEN Tac save", width=30, height=2, command=butCallback_exp2)
 
 
     b1_ai.grid(row=2, column=1, columnspan=2)
