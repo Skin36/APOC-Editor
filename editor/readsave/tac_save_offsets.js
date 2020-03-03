@@ -57,7 +57,7 @@
                     "struc_count": 1,
                     "type": "struc",
 					"sign":"False",
-					"comment":"unknown structure",
+					"comment":"No Comment",
 					"struc_member":"13",
 					"struc":{
                              "0":
@@ -171,7 +171,7 @@
                              "12":
                                  {"name":"ind_destroyed_ground",
                                   "enum":"False",
-                                  "size":4,
+                                  "size":9,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
@@ -180,13 +180,224 @@
                             }
             },
 		
-		"8":{
-                    "name": "minute",
-					"size": 2,
-                    "type": "simple",
-                    "enum":"False",
+        "8":{
+                    "name": "SCENARIO_dat",
+					"enum":"False",
+					"enum_type":"False",
+                    "struc_count": 1,
+                    "type": "struc",
 					"sign":"False",
-					"comment":"No Comment"
+					"comment":"No Comment",
+					"struc_member":"20",
+					"struc":{
+                             "0":
+                                 {"name":"map_name",
+                                  "enum":"False",
+                                  "size":40,
+                                  "elements":0,
+                                  "type":"False",
+                                  "sign":"string",
+                                  "comment":"none"
+                                  },
+                             "1":
+                                 {"name":"map_x_size",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "2":
+                                 {"name":"map_y_size",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "3":
+                                 {"name":"map_z_size",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "4":
+                                 {"name":"dword_244020",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "5":
+                                 {"name":"mission_type",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "6":
+                                 {"name":"year_temp",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "7":
+                                 {"name":"month_temp",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "8":
+                                 {"name":"week_temp",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "9":
+                                 {"name":"day_temp",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "10":
+                                 {"name":"hour_temp",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "11":
+                                 {"name":"minute_temp",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "11":
+                                 {"name":"second_temp",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "12":
+                                 {"name":"bldn_num",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "13":
+                                 {"name":"bld_function",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "14":
+                                 {"name":"bld_owner",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "15":
+                                 {"name":"bld_relation",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "16":
+                                 {"name":"dword_244054",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "17":
+                                 {"name":"dword_244058",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "18":
+                                 {"name":"dword_24405C",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "19":
+                                 {"name":"dword_244060",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  }
+                             "20":
+                                 {"name":"word_244064",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  }
+                             "21":
+                                 {"name":"word_244064",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  }
+                             }
             },
  
 		"9":{
