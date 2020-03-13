@@ -188,7 +188,7 @@
                     "type": "struc",
 					"sign":"False",
 					"comment":"No Comment",
-					"struc_member":"20",
+					"struc_member":"52",
 					"struc":{
                              "0":
                                  {"name":"map_name",
@@ -237,7 +237,8 @@
                                   },
                              "5":
                                  {"name":"mission_type",
-                                  "enum":"False",
+                                  "enum":"xcom_mission_type",
+                                  "enum_num":4,
                                   "size":4,
                                   "elements":0,
                                   "type":"num",
@@ -318,7 +319,8 @@
                                   },
                              "13":
                                  {"name":"bld_function",
-                                  "enum":"False",
+                                  "enum":"building_function",
+                                  "enum_num":38,
                                   "size":4,
                                   "elements":0,
                                   "type":"num",
@@ -327,7 +329,8 @@
                                   },
                              "14":
                                  {"name":"bld_owner",
-                                  "enum":"False",
+                                  "enum":"Organizations",
+                                  "enum_num":29,
                                   "size":4,
                                   "elements":0,
                                   "type":"num",
@@ -378,20 +381,300 @@
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
-                                  }
+                                  },
                              "20":
-                                 {"name":"word_244064",
+                                 {"name":"bld_ship_type_mission",
                                   "enum":"False",
                                   "size":4,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
-                                  }
+                                  },
                              "21":
-                                 {"name":"word_244064",
+                                 {"name":"rank_0",
+                                  "enum":"False",
+                                  "size":1,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "22":
+                                 {"name":"rank_1",
+                                  "enum":"False",
+                                  "size":1,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "23":
+                                 {"name":"rank_1",
+                                  "enum":"False",
+                                  "size":1,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "24":
+                                 {"name":"rank_2",
+                                  "enum":"False",
+                                  "size":1,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "25":
+                                 {"name":"rank_3",
+                                  "enum":"False",
+                                  "size":1,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "26":
+                                 {"name":"rank_4",
+                                  "enum":"False",
+                                  "size":1,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "27":
+                                 {"name":"rank_5",
+                                  "enum":"False",
+                                  "size":1,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "28":
+                                 {"name":"rank_6",
+                                  "enum":"False",
+                                  "size":1,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "29":
+                                 {"name":"field_83",
+                                  "enum":"False",
+                                  "size":1,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "30":
+                                 {"name":"field_84",
                                   "enum":"False",
                                   "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "31":
+                                 {"name":"field_88",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "32":
+                                 {"name":"field_8C",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "33":
+                                 {"name":"field_90",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "34":
+                                 {"name":"field_94",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "35":
+                                 {"name":"field_98",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "35":
+                                 {"name":"field_9C",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "36":
+                                 {"name":"field_A0",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "37":
+                                 {"name":"field_A4",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "38":
+                                 {"name":"field_A8",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "39":
+                                 {"name":"diff_enum",
+                                  "enum":"difficulty_level",
+                                  "enum_num":5,
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "40":
+                                 {"name":"field_B0",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "41":
+                                 {"name":"field_B4",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "42":
+                                 {"name":"tac_score",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "43":
+                                 {"name":"field_BC",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "44":
+                                 {"name":"field_C0",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "45":
+                                 {"name":"field_C1",
+                                  "enum":"False",
+                                  "size":1,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "46":
+                                 {"name":"field_C2",
+                                  "enum":"False",
+                                  "size":1,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "47":
+                                 {"name":"field_C3",
+                                  "enum":"False",
+                                  "size":1,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "48":
+                                 {"name":"field_C4",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "49":
+                                 {"name":"field_C8",
+                                  "enum":"False",
+                                  "size":4,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "50":
+                                 {"name":"field_CC",
+                                  "enum":"False",
+                                  "size":6,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                             "51":
+                                 {"name":"field_D0",
+                                  "enum":"False",
+                                  "size":6,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
@@ -401,8 +684,8 @@
             },
  
 		"9":{
-                    "name": "second",
-					"size": 2,
+                    "name": "dword_E4D28",
+					"size": 4,
                     "type": "simple",
                     "enum":"False",
 					"sign":"False",
@@ -410,7 +693,7 @@
             },
 
 		"10":{
-                    "name": "tick",
+                    "name": "dword_E4D2C",
 					"size": 4,
                     "type": "simple",
                     "enum":"False",
@@ -419,16 +702,17 @@
             },
 
 		"11":{
-                    "name": "camera_coord_3",
-					"size": 2,
+                    "name": "game_speed",
+					"size": 4,
+                    "enum":"game_speed",
+                    "enum_num":5,
                     "type": "simple",
-                    "enum":"False",
 					"sign":"False",
 					"comment":"No Comment"
             },
 
 		"12":{
-                    "name": "camera_coord_5",
+                    "name": "year",
 					"size": 2,
                     "type": "simple",
                     "enum":"False",
@@ -436,7 +720,7 @@
 					"comment":"No Comment"
             },
         "13":{
-                    "name": "camera_z_coord",
+                    "name": "mounth",
 					"size": 2,
                     "type": "simple",
                     "enum":"False",
@@ -444,7 +728,7 @@
 					"comment":"No Comment"
             },
         "14":{
-                    "name": "camera_coord_4",
+                    "name": "week",
 					"size": 2,
                     "type": "simple",
                     "enum":"False",
@@ -452,7 +736,7 @@
 					"comment":"No Comment"
             },
         "15":{
-                    "name": "camera_coord_6",
+                    "name": "day",
 					"size": 2,
                     "type": "simple",
                     "enum":"False",
@@ -460,42 +744,39 @@
 					"comment":"No Comment"
             },
         "16":{
-                    "name": "camera_coord_x",
-					"size": 4,
+                    "name": "hours",
+					"size": 2,
                     "type": "simple",
                     "enum":"False",
 					"sign":"False",
 					"comment":"No Comment"
             },
         "17":{
-                    "name": "camera_coord_y",
-					"size": 4,
+                    "name": "minute",
+					"size": 2,
                     "type": "simple",
                     "enum":"False",
 					"sign":"False",
 					"comment":"No Comment"
             },
         "18":{
-                    "name": "speed",
-					"size": 4,
+                    "name": "second",
+					"size": 2,
                     "type": "simple",
                     "enum":"False",
-                    "enum":"game_speed",
-                    "enum_num":6,
 					"sign":"False",
 					"comment":"No Comment"
              },
         "19":{
-                    "name": "map_view_flag",
+                    "name": "tick",
 					"size": 2,
                     "type": "simple",
-                    "enum":"map_flag",
-                    "enum_num":2,
+                    "enum":"False",
 					"sign":"False",
 					"comment":"Current map-City or Alien Demension"
             },
         "20":{
-                    "name": "camera_coord_7",
+                    "name": "word_E6C38",
 					"size": 2,
                     "type": "simple",
                     "enum":"False",
@@ -503,7 +784,7 @@
                     "comment":"No Comment"
              },
         "21":{
-                    "name": "camera_coord_9",
+                    "name": "word_E6D40",
 					"size": 2,
                     "type": "simple",
                     "enum":"False",
@@ -511,133 +792,23 @@
                     "comment":"No Comment"
              },
         "22":{
-                    "name": "word_183A3C",
-					"enum":"False",
-					"enum_type":"False",
-                    "struc_count": 1,
-                    "type": "struc",
-					"sign":"False",
-					"comment":"unknown structure",
-					"struc_member":"11",
-					"struc":{
-                             "0":
-                                 {"name":"unc1",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-                             "1":
-                                 {"name":"unc2",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-                             "2":
-                                 {"name":"unc3",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-
-                             "3":
-                                 {"name":"unc4",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-
-                             "4":
-                                 {"name":"unc5",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-
-                             "5":
-                                 {"name":"unc6",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-
-                             "6":
-                                 {"name":"unc7",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-
-                             "7":
-                                 {"name":"unc8",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-
-                             "8":
-                                 {"name":"unc9",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-                             "9":
-                                 {"name":"unc10",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-
-                             "10":
-                                 {"name":"unc11",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  }
-                              }
-            },
+                    "name": "word_E6D42",
+					"size": 2,
+                    "type": "simple",
+                    "enum":"False",
+                    "sign":"True",
+                    "comment":"No Comment"
+             },
         "23":{
-                    "name": "dword_182A58",
-					"size": 4,
+                    "name": "word_E6D44",
+					"size": 2,
                     "type": "simple",
 					"enum":"False",
 					"sign":"False",
 					"comment":"No Comment"
              },
         "24":{
-                    "name": "target_x_veh_pos",
+                    "name": "temp_squad",
 					"size": 2,
                     "type": "simple",
 					"enum":"False",
@@ -645,7 +816,7 @@
 					"comment":"No Comment"
              },
         "25":{
-                    "name": "target_y_veh_pos",
+                    "name": "word_E6D48",
 					"size": 2,
                     "type": "simple",
 					"enum":"False",
@@ -653,7 +824,7 @@
 					"comment":"No Comment"
             },
         "26":{
-                    "name": "target_z_veh_pos",
+                    "name": "word_E6D4A",
 					"size": 2,
                     "type": "simple",
 					"enum":"False",
@@ -661,7 +832,7 @@
 					"comment":"No Comment"
              },
         "27":{
-                    "name": "word_D4E28",
+                    "name": "word_E6D4E",
 					"size": 2,
                     "type": "simple",
 					"enum":"False",
@@ -669,7 +840,7 @@
 					"comment":"No Comment"
             },
         "28":{
-                    "name": "veh_contol_comand",
+                    "name": "player_side",
 					"size": 2,
                     "type": "simple",
 					"enum":"False",
@@ -677,7 +848,7 @@
 					"comment":"No Comment"
 		     },
         "29":{
-                    "name": "not_used_4",
+                    "name": "AI_control_NONE",
 					"size": 2,
                     "type": "simple",
 					"enum":"False",
@@ -685,7 +856,7 @@
 					"comment":"No Comment"
            },
         "30":{
-                    "name": "camera_mod_flag",
+                    "name": "AI_control_FULL",
 					"size": 2,
                     "type": "simple",
 					"enum":"False",
@@ -693,7 +864,7 @@
 					"comment":"0-off,1-follow"
              },
         "31":{
-                    "name": "not_used_1",
+                    "name": "byte_27A804",
 					"size": 1,
                     "type": "simple",
 					"enum":"False",
@@ -701,7 +872,7 @@
 					"comment":"No Comment"
              },
         "32":{
-                    "name": "not_used_2",
+                    "name": "dword_E9E3E",
 					"size": 1,
                     "type": "simple",
 					"enum":"False",
@@ -709,296 +880,189 @@
 					"comment":"No Comment"
              },
         "33":{
-                    "name": "not_used_3",
-					"size": 1,
+                    "name": "dword_1EBDD8",
+					"size": 4,
                     "type": "simple",
 					"enum":"False",
 					"sign":"False",
 					"comment":"No Comment"
            },
         "34":{
-                    "name": "not_used",
-					"size": 1,
+                    "name": "unit_1",
+					"size": 2,
                     "type": "simple",
 					"enum":"False",
 					"sign":"False",
-					"comment":"not useed,always 1"
+					"comment":"No Comment"
 					
              },
         "35":{
-                    "name": "ufo_all_arrived_in_city_flag",
+                    "name": "unit_2",
 					"size": 2,
                     "type": "simple",
-					"enum":"ufo_arrived_city",
-					"enum_num":2,
+					"enum":"False",
 					"sign":"False",
-					"comment":"0-all, 1-not all"
+					"comment":"No Comment"
+
              },
         "36":{
-                    "name": "word_D505E",
+                    "name": "unit_3",
 					"size": 2,
                     "type": "simple",
 					"enum":"False",
 					"sign":"False",
 					"comment":"No Comment"
+
              },
         "37":{
-                    "name": "alien_demen_flag",
-					"size": 1,
+                    "name": "unit_4",
+					"size": 2,
                     "type": "simple",
 					"enum":"False",
 					"sign":"False",
 					"comment":"No Comment"
+
              },
         "38":{
-                    "name": "ultra_speed_on_flag",
+                    "name": "unit_5",
 					"size": 2,
                     "type": "simple",
 					"enum":"False",
 					"sign":"False",
 					"comment":"No Comment"
+
              },
         "39":{
-                    "name": "portal_replace_count",
+                    "name": "unit_6",
+					"size": 2,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"No Comment"
+
+             },
+        "40":{
+                    "name": "dword_1B25F4",
 					"size": 4,
                     "type": "simple",
 					"enum":"False",
 					"sign":"False",
 					"comment":"No Comment"
-           },
-        "40":{
-                    "name": "alien_demen_time_cnt_un",
-					"size": 4,
-                    "type": "simple",
-					"enum":"False",
-					"sign":"False",
-					"comment":"This counter unused"
-           },
+             },
         "41":{
-                    "name": "log total count",
-					"size": 4,
+                    "name": "word_1B7BAA",
+					"size": 2,
                     "type": "simple",
 					"enum":"False",
 					"sign":"False",
-					"comment":"show  all messages count"
+					"comment":"No Comment"
              },
         "42":{
-                    "name": "mission_group",
-					"size": 2,
+                    "name": "WEAPEXP_write_flag",
+					"size": 4,
                     "type": "simple",
 					"enum":"False",
 					"sign":"False",
 					"comment":"No Comment"
              },
         "43":{
-                    "name": "ufo_mission_offset",
-					"size": 2,
+                    "name": "dword_1B8E40",
+					"size": 4,
                     "type": "simple",
 					"enum":"False",
 					"sign":"False",
 					"comment":"No Comment"
              },
         "44":{
-                    "name": "ufo_count_in_city",
-					"size": 2,
+                    "name": "dword_1B8E44",
+					"size": 4,
                     "type": "simple",
 					"enum":"False",
 					"sign":"False",
 					"comment":"No Comment"
            },
         "45":{
-                    "name": "unit_count",
-					"size": 2,
-                    "type": "simple",
-					"enum":"False",
-					"sign":"False",
-					"comment":"No Comment"
-             },
-        "46":{
-                    "name": "not_used_6",
+                    "name": "dword_1B8E48",
 					"size": 4,
                     "type": "simple",
 					"enum":"False",
 					"sign":"False",
 					"comment":"No Comment"
            },
-        "47":{
-                    "name": "gen_support_veh_interval",
+        "46":{
+                    "name": "side_array_1",
 					"size": 4,
                     "type": "simple",
 					"enum":"False",
 					"sign":"False",
-					"comment":"support transport generation time=30 sec /gen_support_veh_interval = 1080/ gen_support_veh_interval -= speed "
+					"comment":"org for hot seat game"
+             },
+        "47":{
+                    "name": "side_array_2",
+					"size": 4,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"org for hot seat game"
              },
         "48":{
-                    "name": "word_D5090",
+                    "name": "side_array_3",
 					"size": 4,
                     "type": "simple",
 					"enum":"False",
 					"sign":"False",
-					"comment":"No Comment"
+					"comment":"org for hot seat game"
              },
         "49":{
-                    "name": "seed",
+                    "name": "side_array_4",
 					"size": 4,
                     "type": "simple",
 					"enum":"False",
 					"sign":"False",
-					"comment":"No Comment"
+					"comment":"org for hot seat game"
            },
         "50":{
-                    "name": "rnd_count",
+                    "name": "side_array_5",
+					"size": 4,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"org for hot seat game"
+             },
+        "51":{
+                    "name": "side_array_6",
+					"size": 4,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"org for hot seat game"
+           },
+        "52":{
+                    "name": "side_array_7",
+					"size": 4,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"org for hot seat game"
+             },
+        "53":{
+                    "name": "side_array_8",
+					"size": 4,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"org for hot seat game"
+             },
+        "54":{
+                    "name": "dword_1EBDDC",
 					"size": 4,
                     "type": "simple",
 					"enum":"False",
 					"sign":"False",
 					"comment":"No Comment"
-             },
-        "51":{
-                    "name": "current_bld",
-					"size": 2,
-                    "type": "simple",
-					"enum":"False",
-					"sign":"False",
-					"comment":"No Comment"
-             },
-
-        "52":{
-                    "name": "main_intrf_tab_selection",
-                    "struc_count": 1,
-                    "type": "struc",
-					"sign":"False",
-					"enum":"False",
-					"enum_type":"False",
-					"comment":"unknown structure",
-					"struc_member":"11",
-					"struc":{
-                             "0":
-                                 {"name":"field_0",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-                             "1":
-                                 {"name":"base_tab",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-                             "2":
-                                 {"name":"veh_tab",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-
-                             "3":
-                                 {"name":"agent_tab",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-
-                             "4":
-                                 {"name":"bio_tab",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-
-                             "5":
-                                 {"name":"eng_tab",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-
-                             "6":
-                                 {"name":"qua_tab",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-
-                             "7":
-                                 {"name":"ufo_tab",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-
-                             "8":
-                                 {"name":"field_10",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-                             "9":
-                                 {"name":"field_12",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-
-                             "10":
-                                 {"name":"field_14",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  }
-                              }
            },
-        "53":{
-                    "name": "Police_car",
-					"size": 2,
-                    "type": "simple",
-					"enum":"False",
-					"sign":"False",
-                    "comment":"No Comment"
-             },
-        "54":{
-                    "name": "Police_Howercar",
-					"size": 2,
-                    "type": "simple",
-					"enum":"False",
-					"sign":"False",
-					"comment":"No Comment"
-             },
         "55":{
-                    "name": "total_workforce",
+                    "name": "dword_1ED368",
 					"size": 4,
                     "type": "simple",
 					"enum":"False",
@@ -1006,15 +1070,7 @@
 					"comment":"No Comment"
              },
         "56":{
-                    "name": "dword_E0E80",
-					"size": 4,
-                    "type": "simple",
-					"enum":"False",
-					"sign":"False",
-					"comment":"No Comment"
-             },
-        "57":{
-                    "name": "dword_E0E84",
+                    "name": "dword_E60DC",
 					"size": 4,
                     "type": "simple",
 					"enum":"False",
@@ -1022,1519 +1078,642 @@
 					"comment":"No Comment"
              },
 
+        "57":{
+                    "name": "dword_E60E0",
+					"size": 4,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+                    "comment":"No Comment"
+             },
         "58":{
-                    "name": "bld_count",
-					"size": 2,
+                    "name": "dword_E6BC4",
+					"size": 4,
                     "type": "simple",
 					"enum":"False",
 					"sign":"False",
 					"comment":"No Comment"
              },
         "59":{
-                    "name": "bld_count2",
-					"size": 2,
+                    "name": "dword_E60EC",
+					"size": 4,
                     "type": "simple",
 					"enum":"False",
 					"sign":"False",
 					"comment":"No Comment"
              },
         "60":{
-                    "name": "bld_count3",
-					"size": 2,
+                    "name": "dword_E60F0",
+					"size": 4,
                     "type": "simple",
 					"enum":"False",
 					"sign":"False",
 					"comment":"No Comment"
              },
         "61":{
-                    "name": "tab_sub_select",
-                    "struc_count": 11,
-                    "type": "struc",
-					"sign":"False",
-					"enum":"tab_sub_select",
-					"enum_type":"False",
-					"comment":"No Comment",
-					"struc_member":"26",
-					"struc":{
-                             "0":
-                                 {"name":"field_1",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"1": 
-								  {"name":"field_2",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"2": 
-								  {"name":"field_3",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"3": 
-								  {"name":"field_4",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
- 							"4": 
-								  {"name":"field_5",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"5": 
-								  {"name":"field_6",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"6": 
-								  {"name":"field_7",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"7": 
-								  {"name":"field_8",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"8": 
-								  {"name":"field_8",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"9": 
-								  {"name":"field_9",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"10": 
-								  {"name":"field_10",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"11": 
-								  {"name":"field_11",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"12": 
-								  {"name":"field_12",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"13": 
-								  {"name":"field_13",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"14": 
-								  {"name":"field_14",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"15": 
-								  {"name":"field_15",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"16": 
-								  {"name":"field_16",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"17": 
-								  {"name":"field_17",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"18": 
-								  {"name":"field_18",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"19": 
-								  {"name":"field_19",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"20": 
-								  {"name":"field_20",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"21": 
-								  {"name":"field_21",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"22": 
-								  {"name":"field_22",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"23": 
-								  {"name":"field_23",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"24": 
-								  {"name":"field_24",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"25": 
-								  {"name":"field_25",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  }
-                            }								  
-			},
-        "62":{
-                    "name": "diplor_dat",
-                    "struc_count": 28,
-                    "type": "struc",
-					"sign":"False",
-					"enum":"Organizations",
-					"enum_type":"False",
-					"comment":"No Comment",
-					"struc_member":"28",
-					"struc":{
-                             "0":
-                                 {"name":"X-COM",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"1": 
-								  {"name":"Alien",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"2": 
-								  {"name":"Government",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"3": 
-								  {"name":"Megapol",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
- 							"4": 
-								  {"name":"Cult of Sirius",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"5": 
-								  {"name":"Marsec",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"6": 
-								  {"name":"Superdynamics",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"7": 
-								  {"name":"General Metro",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"8": 
-								  {"name":"Cyberweb",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"9": 
-								  {"name":"Transtellar",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"10": 
-								  {"name":"Solmine",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"11": 
-								  {"name":"Sensovision",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"12": 
-								  {"name":"Lifetree",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"13": 
-								  {"name":"Nutrivend",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"14": 
-								  {"name":"Evonet",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"15": 
-								  {"name":"Sanctuary Clinic",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"16": 
-								  {"name":"Nanotech",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"17": 
-								  {"name":"Energen",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"18": 
-								  {"name":"Synthemesh",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"19": 
-								  {"name":"Gravball League",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"20": 
-								  {"name":"Psyke",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"21": 
-								  {"name":"Diablo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"22": 
-								  {"name":"Osiron",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"23": 
-								  {"name":"S.E.L.F.",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"24": 
-								  {"name":"Mutant Alliance",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"25": 
-								  {"name":"Extropians",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"26": 
-								  {"name":"Technocrats",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"27": 
-								  {"name":"Civilian",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  }
-					       }
-					
-					
-           },
-        "63":{
-                    "name": "relation_raid",
-                    "struc_count": 28,
-                    "type": "struc",
-					"sign":"False",
-					"enum":"Organizations",
-					"enum_type":"False",
-					"comment":"no",
-					"struc_member":"28",
-					"struc":{
-                             "0":
-                                 {"name":"X-COM",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"1": 
-								  {"name":"Alien",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"2": 
-								  {"name":"Government",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"3": 
-								  {"name":"Megapol",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
- 							"4": 
-								  {"name":"Cult of Sirius",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"5": 
-								  {"name":"Marsec",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"6": 
-								  {"name":"Superdynamics",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"7": 
-								  {"name":"General Metro",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"8": 
-								  {"name":"Cyberweb",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"9": 
-								  {"name":"Transtellar",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"10": 
-								  {"name":"Solmine",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"11": 
-								  {"name":"Sensovision",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"12": 
-								  {"name":"Lifetree",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"13": 
-								  {"name":"Nutrivend",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"14": 
-								  {"name":"Evonet",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"15": 
-								  {"name":"Sanctuary Clinic",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"16": 
-								  {"name":"Nanotech",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"17": 
-								  {"name":"Energen",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"18": 
-								  {"name":"Synthemesh",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"19": 
-								  {"name":"Gravball League",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"20": 
-								  {"name":"Psyke",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"21": 
-								  {"name":"Diablo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"22": 
-								  {"name":"Osiron",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"23": 
-								  {"name":"S.E.L.F.",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"24": 
-								  {"name":"Mutant Alliance",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"25": 
-								  {"name":"Extropians",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"26": 
-								  {"name":"Technocrats",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"27": 
-								  {"name":"Civilian",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  }
-					       }
-           },
-        "64":{
-                    "name": "relation_dip_rift",
-                    "struc_count": 28,
-                    "type": "struc",
-					"sign":"False",
-					"enum":"Organizations",
-					"enum_type":"False",
-					"comment":"init 127 const value",
-					"struc_member":"28",
-					"struc":{
-                             "0":
-                                 {"name":"X-COM",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"1": 
-								  {"name":"Alien",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"2": 
-								  {"name":"Government",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"3": 
-								  {"name":"Megapol",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
- 							"4": 
-								  {"name":"Cult of Sirius",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"5": 
-								  {"name":"Marsec",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"6": 
-								  {"name":"Superdynamics",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"7": 
-								  {"name":"General Metro",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"8": 
-								  {"name":"Cyberweb",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"9": 
-								  {"name":"Transtellar",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"10": 
-								  {"name":"Solmine",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"11": 
-								  {"name":"Sensovision",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"12": 
-								  {"name":"Lifetree",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"13": 
-								  {"name":"Nutrivend",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"14": 
-								  {"name":"Evonet",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"15": 
-								  {"name":"Sanctuary Clinic",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"16": 
-								  {"name":"Nanotech",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"17": 
-								  {"name":"Energen",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"18": 
-								  {"name":"Synthemesh",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"19": 
-								  {"name":"Gravball League",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"20": 
-								  {"name":"Psyke",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"21": 
-								  {"name":"Diablo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"22": 
-								  {"name":"Osiron",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"23": 
-								  {"name":"S.E.L.F.",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"24": 
-								  {"name":"Mutant Alliance",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"25": 
-								  {"name":"Extropians",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"26": 
-								  {"name":"Technocrats",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  },
-							"27": 
-								  {"name":"Civilian",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"none"
-                                  }
-					       }
-           },
-        "65":{
-                    "name": "gen_veh_type_counter",
-                    "struc_count": 1,
-                    "type": "struc",
-					"sign":"False",
+                    "name": "dword_E6BC8",
+					"size": 4,
+                    "type": "simple",
 					"enum":"False",
-					"comment":"unused",
-					"struc_member":"34",
-					"struc":{
-                             "0":
-                                 {"name":"Alien Probe",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"1":
-                                 {"name":"Alien Scout",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-						    "2":
-                                 {"name":"Alien Transporter",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-						    "3":
-                                 {"name":"Alien Fast Attack Ship",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-						    "4":
-                                 {"name":"Alien Destroyer",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"5":
-                                 {"name":"Alien Assault Ship",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"6":
-                                 {"name":"Alien Bomber",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"7":
-                                 {"name":"Alien Escort",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"8":
-                                 {"name":"Alien Battleship",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"9":
-                                 {"name":"Alien Mothership",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-						    "10":
-                                 {"name":"Police Hovercar",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"11":
-                                 {"name":"Airtaxi",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"12":
-                                 {"name":"Rescue Transport",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"13":
-                                 {"name":"Construction Vehicle",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"14":
-                                 {"name":"Airtrans",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"15":
-                                 {"name":"Space Liner",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"16":
-                                 {"name":"Phoenix Hovercar",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"17":
-                                 {"name":"Hoverbike",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"18":
-                                 {"name":"Valkyrie Interceptor",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"19":
-                                 {"name":"Hawk Air Warrior",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"20":
-                                 {"name":"Dimension Probe",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"21":
-                                 {"name":"Biotrans",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"22":
-                                 {"name":"Explorer",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"23":
-                                 {"name":"Retaliator",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"24":
-                                 {"name":"Annihilator",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"25":
-                                 {"name":"Autotaxi",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"26":
-                                 {"name":"Autotrans",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"27":
-                                 {"name":"Police Car",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"28":
-                                 {"name":"Civilian Car",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"29":
-                                 {"name":"Stormdog",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"30":
-                                 {"name":"Wolfhound APC",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"31":
-                                 {"name":"Blazer Turbo Bike",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"32":
-                                 {"name":"Griffon AFV",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-						    "33":
-                                 {"name":"Overspawn",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  }  
-							}	  
-           },
+					"sign":"False",
+					"comment":"No Comment"
+             },
+
+        "62":{
+                    "name": "dword_E60FC",
+					"size": 4,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"No Comment"
+             },
+        "63":{
+                    "name": "dword_E6100",
+					"size": 4,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"No Comment"
+             },
+        "64":{
+                    "name": "dword_E6BCC",
+					"size": 4,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"No Comment"
+             },
+        "65":{
+                    "name": "dword_E610C",
+					"size": 4,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"No Comment"
+             },
         "66":{
-                    "name": "veh_shadow",
-                    "struc_count": 200,
+                    "name": "dword_E6110",
+					"size": 4,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"No Comment"
+             },
+        "67":{
+                    "name": "dword_E6BD0",
+					"size": 4,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"No Comment"
+             },
+        "68":{
+                    "name": "dword_E6C64",
+					"size": 4,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"No Comment"
+             },
+        "69":{
+                    "name": "word_E6BD8",
+					"size": 4,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"No Comment"
+             },
+        "70":{
+                    "name": "dword_E6C70",
+					"size": 4,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"No Comment"
+             },
+        "71":{
+                    "name": "word_E6BDA",
+					"size": 4,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"No Comment"
+             },
+        "72":{
+                    "name": "dword_E6C7C",
+					"size": 4,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"No Comment"
+             },
+        "73":{
+                    "name": "word_E6BDC",
+					"size": 4,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"No Comment"
+             },
+        "74":{
+                    "name": "dword_E6C88",
+					"size": 4,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"No Comment"
+             },
+        "75":{
+                    "name": "word_E6BDE",
+					"size": 4,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"No Comment"
+             },
+        "76":{
+                    "name": "word_E6BDE",
+					"size": 4,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"No Comment"
+             },
+        "77":{
+                    "name": "tactical_pal",
+					"size": 768,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"pallette"
+             },
+        "78":{
+                    "name": "pal_01",
+					"size": 768,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"pallette"
+             },
+        "79":{
+                    "name": "pal_02",
+					"size": 768,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"pallette"
+             },
+        "80":{
+                    "name": "pal_03",
+					"size": 768,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"pallette"
+             },
+        "81":{
+                    "name": "pallette",
+					"size": 768,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"No Comment"
+             },
+        "82":{
+                    "name": "equip_pal",
+					"size": 768,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"pallette"
+             },
+        "83":{
+                    "name": "PCK_index",
+					"size": 256,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"pallette"
+             },
+        "84":{
+                    "name": "dword_27A870",
+					"size": 4,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"pallette"
+             },
+        "85":{
+                    "name": "byte_27A0EA",
+					"size": 1,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"pallette"
+             },
+       "86":{
+                    "name": "byte_27A0EB",
+					"size": 1,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"pallette"
+             },
+
+       "87":{
+                    "name": "unc",
+					"size": 1,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"pallette"
+             },
+       "88":{
+                    "name": "empty",
+					"size": 2,
+                    "type": "simple",
+					"enum":"False",
+					"sign":"False",
+					"comment":"pallette"
+             },
+
+       "89":{
+                    "name": "object_dat",
+                    "struc_count": 750,
                     "type": "struc",
 					"sign":"False",
-					"enum":"veh_shadow_offset",
-					"enum_type":"0",
+					"enum":"agent_equipment",
+					"enum_type":"2",
 					"comment":"No Comment",
-					"struc_member":"14",
+					"struc_member":"46",
 					"struc":{
 					         "0":
-                                 {"name":"shadow_image",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
+                                 {"name":"owned_org",
+                                  "enum":"Organizations",
+                                  "enum_num":29,
+                                  "size":1,
                                   "type":"num",
                                   "sign":"False",
-                                  "comment":"-1 - not used"
+                                  "comment":"none"
                                   },
 							"1":
-                                 {"name":"current_frame1",
+                                 {"name":"score",
                                   "enum":"False",
-                                  "size":4,
-                                  "elements":0,
+                                  "size":1,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"2":
-                                 {"name":"current_frame3",
-                                  "enum":"False",
-                                  "size":4,
-                                  "elements":0,
+                                 {"name":"equipment",
+                                  "enum":"agent_equipment",
+                                  "enum_num":89,
+                                  "size":1,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"3":
-                                 {"name":"tile",
+                                 {"name":"unit_num",
                                   "enum":"False",
-                                  "size":2,
-                                  "elements":0,
+                                  "size":1,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"4":
-                                 {"name":"shadow_image_pos_3",
+                                 {"name":"x_pos",
                                   "enum":"False",
-                                  "size":2,
-                                  "elements":0,
+                                  "size":1,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
-							"5":
-                                 {"name":"shadow_image_pos_4",
+                            "5":
+                                 {"name":"y_pos",
                                   "enum":"False",
-                                  "size":2,
-                                  "elements":0,
+                                  "size":1,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
-							"6":
-                                 {"name":"shadow_image_pos_1",
+                            "6":
+                                 {"name":"z_pos",
                                   "enum":"False",
-                                  "size":2,
-                                  "elements":0,
+                                  "size":1,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"7":
-                                 {"name":"shadow_image_pos_2",
+                                 {"name":"brainsucker_status",
                                   "enum":"False",
-                                  "size":2,
-                                  "elements":0,
+                                  "size":1,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"8":
-                                 {"name":"animation_type",
+                                 {"name":"lof",
                                   "enum":"False",
-                                  "size":2,
-                                  "elements":0,
+                                  "size":1,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"9":
-                                 {"name":"current_x_pos",
+                                 {"name":"power",
                                   "enum":"False",
-                                  "size":2,
-                                  "elements":0,
+                                  "size":1,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"10":
-                                 {"name":"current_y_pos",
+                                 {"name":"max_primary_rounds",
                                   "enum":"False",
                                   "size":2,
-                                  "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"11":
-                                 {"name":"current_altitude",
-                                  "enum":"False",
+                                 {"name":"primary_ammo_effect",
+                                  "enum":"agent_equipment_type",
+                                  "enum_num":46,
                                   "size":2,
-                                  "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"12":
-                                 {"name":"road_direct_ind",
+                                 {"name":"armor_rating",
                                   "enum":"False",
-                                  "size":2,
-                                  "elements":0,
+                                  "size":1,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"13":
-                                 {"name":"activ_waypoint",
+                                 {"name":"under_fire_flag",
                                   "enum":"False",
-                                  "size":2,
-                                  "elements":0,
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+						    "14":
+                                 {"name":"field_10",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+						   "15":
+                                 {"name":"field_11",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "16":
+                                 {"name":"org_1",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "17":
+                                 {"name":"org_2",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "18":
+                                 {"name":"org_3",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "19":
+                                 {"name":"org_4",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "20":
+                                 {"name":"org_5",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "21":
+                                 {"name":"org_6",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "22":
+                                 {"name":"org_7",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "23":
+                                 {"name":"org_8",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "24":
+                                 {"name":"org_9",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "25":
+                                 {"name":"org_10",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "26":
+                                 {"name":"org_11",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "27":
+                                 {"name":"org_12",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "28":
+                                 {"name":"org_13",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "29":
+                                 {"name":"org_14",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "30":
+                                 {"name":"org_15",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "31":
+                                 {"name":"org_16",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "32":
+                                 {"name":"org_17",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "33":
+                                 {"name":"org_18",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "34":
+                                 {"name":"org_19",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "35":
+                                 {"name":"org_20",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "36":
+                                 {"name":"org_21",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "37":
+                                 {"name":"org_22",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "38":
+                                 {"name":"org_23",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "39":
+                                 {"name":"org_24",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "40":
+                                 {"name":"org_25",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "41":
+                                 {"name":"org_26",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "42":
+                                 {"name":"org_27",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "43":
+                                 {"name":"org_28",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "44":
+                                 {"name":"owned_org_",
+                                  "enum":"False",
+                                  "size":1,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+                                  },
+                           "45":
+                                 {"name":"field_2F",
+                                  "enum":"False",
+                                  "size":1,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
@@ -2542,7 +1721,7 @@
 								  
 							}
            },
-        "67":{
+       "90":{
                     "name": "projectile_struc",
                     "struc_count": 50,
                     "type": "struc",
@@ -4129,7 +3308,7 @@
                                   }
                             }									  
            },
-        "68":{
+       "91":{
                     "name": "sqreen_struct",
                     "struc_count": 300,
                     "type": "struc",
@@ -4214,7 +3393,7 @@
 								  
 							}  
            },
-        "69":{
+       "92":{
                     "name": "struc_ptg",
                     "struc_count": 150,
                     "type": "struc",
@@ -4271,7 +3450,7 @@
                                   } 
 						    }
            },
-        "70":{
+       "93":{
                     "name": "veh_struc",
                     "struc_count": 80,
                     "type": "struc",
@@ -7388,7 +6567,7 @@
 								  }
 						    }
            },
-        "71":{
+       "94":{
                     "name": "road_junction",
                     "struc_count": 512,
                     "type": "struc",
@@ -7544,7 +6723,7 @@
                                   }
                             }
               },
-        "72":{
+       "93":{
                     "name": "blding_struc",
                     "struc_count": 110,
                     "type": "struc",
@@ -8682,7 +7861,7 @@
                                   }
                         }
           },
-        "73":{
+       "94":{
                     "name": "base_struct",
                     "struc_count": 16,
                     "type": "struc",
@@ -12384,7 +11563,7 @@
                                   }
                             }
            },
-        "74":{
+       "95":{
                 "name": "facility_data",
                     "struc_count": 34,
                     "type": "struc",
@@ -12487,5335 +11666,8 @@
 
                              }
            },
-        "75":{
-                "name": "agent_save_struct",
-                    "struc_count": 180,
-                    "type": "struc",
-					"sign":"False",
-					"enum":"True",
-					"enum_type":"0",
-					"comment":"No Comment",
-					"struc_member":"154",
-					"struc":{
-					         "0":
-                                 {"name":"name",
-                                  "enum":"False",
-                                  "size":26,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"string",
-                                  "comment":"No Comment"
-                                  },
-						    "1":
-                                 {"name":"count",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"2":
-                                 {"name":"unk1",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"3":
-                                 {"name":"unk2",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-						    "4":
-                                 {"name":"unk3",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"5":
-                                 {"name":"unk4",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"6":
-                                 {"name":"unk5",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"7":
-                                 {"name":"unk6",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"8":
-                                 {"name":"owned_org",
-                                  "enum":"Organizations",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"9":
-                                 {"name":"rank",
-                                  "enum":"rank",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-						    "10":
-                                 {"name":"role",
-                                  "enum":"role",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"11":
-                                 {"name":"base",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"num of x-com base"
-                                  },
-						    "12":
-                                 {"name":"day_in_servis",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"13":
-                                 {"name":"kills",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-						    "14":
-                                 {"name":"missions",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"15":
-                                 {"name":"improvement",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"Determines number of medals the agent gets. Step 200,400,700,1000,1500. Each tactical battle adds 10 points."
-                                  },
-							"16":
-                                 {"name":"start max speed",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"17":
-                                 {"name":"start max health",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "18":
-                                 {"name":"start stamina",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "19":
-                                 {"name":"start reaction",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "20":
-                                 {"name":"start strenght",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "21":
-                                 {"name":"start braverly",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "22":
-                                 {"name":"start accuracy",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"100 - [value]."
-                                  },
-                              "23":
-                                 {"name":"start psi_energy",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "24":
-                                 {"name":"start psi_attack",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "25":
-                                 {"name":"start psi_defece",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "26":
-                                 {"name":"score",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"score+random(0...max score)"
-                                  },
-                              "27":
-                                 {"name":"role 1",
-                                  "enum":"role",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "28":
-                                 {"name":"current max speed",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "29":
-                                 {"name":"current max health",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "30":
-                                 {"name":"current health",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "31":
-                                 {"name":"unc_38",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "32":
-                                 {"name":"current stamina",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "33":
-                                 {"name":"current reaction",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "34":
-                                 {"name":"current strenght",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "35":
-                                 {"name":"current bravery",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "36":
-                                 {"name":"current Psi energy",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "37":
-                                 {"name":"current Psi attack",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "38":
-                                 {"name":"current Psi defese",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "39":
-                                 {"name":"leg_type",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "40":
-                                 {"name":"current accuracy",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"100 - [value]"
-                                  },
-                              "41":
-                                 {"name":"unc_47",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "42":
-                                 {"name":"unc_48",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "43":
-                                 {"name":"Biochemistry skill",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "44":
-                                 {"name":"Quantum Phisics skill",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "45":
-                                 {"name":"Engineering skill",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "46":
-                                 {"name":"unc_52",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "47":
-                                 {"name":"unc_53",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "48":
-                                 {"name":"armor(legs)",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "49":
-                                 {"name":"armor(body)",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "50":
-                                 {"name":"armor(left_arm)",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "51":
-                                 {"name":"armor(right_arm)",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "52":
-                                 {"name":"armor(head)",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "53":
-                                 {"name":"armor(back)",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "54":
-                                 {"name":"inventory_id",
-                                  "enum":"agents_inventory",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"See agents inventory"
-                                  },
-                              "55":
-                                 {"name":"inventory_id_reference",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "56":
-                                 {"name":"field_58",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "57":
-                                 {"name":"field_59",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "58":
-                                 {"name":"field_5A",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "59":
-                                 {"name":"field_5B",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "60":
-                                 {"name":"field_5C",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "61":
-                                 {"name":"field_5D",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "62":
-                                 {"name":"field_5E",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "63":
-                                 {"name":"field_5F",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "64":
-                                 {"name":"field_60",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "65":
-                                 {"name":"field_61",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "66":
-                                 {"name":"size_x",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "67":
-                                 {"name":"size_y",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "68":
-                                 {"name":"field_66",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "69":
-                                 {"name":"field_67",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "70":
-                                 {"name":"field_69",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "71":
-                                 {"name":"field_70",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "72":
-                                 {"name":"field_6B",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "73":
-                                 {"name":"field_6C",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "74":
-                                 {"name":"hired",
-                                  "enum":"hire",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "75":
-                                 {"name":"order",
-                                  "enum":"agent_order",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "76":
-                                 {"name":"tailing_person",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "77":
-                                 {"name":"field_72",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "78":
-                                 {"name":"field_73",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "79":
-                                 {"name":"field_74",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "80":
-                                 {"name":"field_75",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "81":
-                                 {"name":"coord_3d_x",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "82":
-                                 {"name":"coord_3d_y",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "83":
-                                 {"name":"coord_3d_z",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "84":
-                                 {"name":"demension",
-                                  "enum":"map_flag",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "85":
-                                 {"name":"assignment_type",
-                                  "enum":"agent_assignment_type",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "86":
-                                 {"name":"assignment",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "87":
-                                 {"name":"target_bld_num",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "88":
-                                 {"name":"field_84",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "89":
-                                 {"name":"field_85",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "90":
-                                 {"name":"field_85",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "91":
-                                 {"name":"field_87",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "92":
-                                 {"name":"field_88",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "93":
-                                 {"name":"field_89",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "94":
-                                 {"name":"field_8A",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "95":
-                                 {"name":"field_8B",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "96":
-                                 {"name":"field_8C",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "97":
-                                 {"name":"field_8D",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "98":
-                                 {"name":"field_8E",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "99":
-                                 {"name":"field_8F",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "100":
-                                 {"name":"field_90",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "101":
-                                 {"name":"field_91",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "102":
-                                 {"name":"field_92",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "103":
-                                 {"name":"field_93",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "104":
-                                 {"name":"field_94",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "105":
-                                 {"name":"field_95",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "106":
-                                 {"name":"field_96",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "107":
-                                 {"name":"field_97",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "108":
-                                 {"name":"field_98",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "109":
-                                 {"name":"coord_3d_x_1_ikon_bld",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "110":
-                                 {"name":"coord_3d_y_1_ikon_bld",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "111":
-                                 {"name":"coord_3d_z_1_ikon_bld",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "112":
-                                 {"name":"coord_3d_x_2",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "113":
-                                 {"name":"coord_3d_y_2",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "114":
-                                 {"name":"coord_3d_z_2",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "115":
-                                 {"name":"field_A6",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "116":
-                                 {"name":"field_A7",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "117":
-                                 {"name":"field_A8",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "118":
-                                 {"name":"field_A9",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "119":
-                                 {"name":"field_AA",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "120":
-                                 {"name":"field_AB",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "121":
-                                 {"name":"field_AC",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "122":
-                                 {"name":"field_AD",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "123":
-                                 {"name":"field_AE",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "124":
-                                 {"name":"field_AF",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "125":
-                                 {"name":"field_B0",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "126":
-                                 {"name":"field_B1",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "127":
-                                 {"name":"unkn2",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "128":
-                                 {"name":"gender",
-                                  "enum":"gender",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "129":
-                                 {"name":"unkn",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "130":
-                                 {"name":"facial_image",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"0-29: female human/ 30-34 female hybrid/ 35-64 male human/ 65-69 male hybrid/  70-74 android"
-                                  },
-                              "131":
-                                 {"name":"field_B6",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "132":
-                                 {"name":"field_B7",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "133":
-                                 {"name":"field_B8",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "134":
-                                 {"name":"field_B9",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "135":
-                                 {"name":"field_BA",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "136":
-                                 {"name":"field_BB",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "137":
-                                 {"name":"field_BC",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "138":
-                                 {"name":"field_BD",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "139":
-                                 {"name":"field_BE",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "140":
-                                 {"name":"field_BF",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "141":
-                                 {"name":"field_C0",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "142":
-                                 {"name":"field_C1",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "143":
-                                 {"name":"field_C2",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "144":
-                                 {"name":"field_C3",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "145":
-                                 {"name":"field_C4",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "146":
-                                 {"name":"field_C5",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "147":
-                                 {"name":"assigment_progject",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "148":
-                                 {"name":"training",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "149":
-                                 {"name":"field_C9",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "150":
-                                 {"name":"field_CA",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "151":
-                                 {"name":"field_CB",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "152":
-                                 {"name":"field_CC",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "153":
-                                 {"name":"field_CD",
-                                  "enum":"False",
-                                  "size":1,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  }
 
-                       }
-           },
-        "76":{
-                    "name": "rules_of_engagement",
-                    "struc_count": 15,
-                    "type": "struc",
-					"sign":"False",
-					"enum":"rules_of_engagement",
-					"enum_type":"False",
-					"comment":"No Comment",
-					"struc_member":"145",
-					"struc":{
-					         "0":
-                                 {"name":"field_0",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "1":
-                                 {"name":"dist attack",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "2":
-                                 {"name":"Alien prob",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "3":
-                                 {"name":"Alien scout",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "4":
-                                 {"name":"Alien Transporter",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"when calculating multiplied by 2"
-                                  },
-                              "5":
-                                 {"name":"Alien Fast Attack Ship",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "6":
-                                 {"name":"Alien Destroyer",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "7":
-                                 {"name":"Alien Assault Ship",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "8":
-                                 {"name":"Alien Bomber",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "9":
-                                 {"name":"Alien Escort",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "10":
-                                 {"name":"Alien Battleship",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "11":
-                                 {"name":"Alien Mothership",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "12":
-                                 {"name":"Police Hovercar",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "13":
-                                 {"name":"Airtaxi",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "14":
-                                 {"name":"Rescue Transport",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "15":
-                                 {"name":"Construction Vehicle",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "16":
-                                 {"name":"Airtrans",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "17":
-                                 {"name":"Space Liner",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "18":
-                                 {"name":"Phoenix Hovercar",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "19":
-                                 {"name":"Hoverbike",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "20":
-                                 {"name":"Valkyrie Interceptor",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "21":
-                                 {"name":"Hawk Air Warrior",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "22":
-                                 {"name":"Dimension Probe",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "23":
-                                 {"name":"Biotrans",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "24":
-                                 {"name":"Explorer",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "25":
-                                 {"name":"Retaliator",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "26":
-                                 {"name":"Annihilator",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "27":
-                                 {"name":"Autotaxi",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "28":
-                                 {"name":"Autotrans",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "29":
-                                 {"name":"Police Car",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "30":
-                                 {"name":"Civilian Car",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "31":
-                                 {"name":"Stormdog",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "32":
-                                 {"name":"Wolfhound APC",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "33":
-                                 {"name":"Blazer Turbo Bike",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "34":
-                                 {"name":"Griffon AFV",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "35":
-                                 {"name":"Overspawn",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"dist attack,when calculating multiplied by 2"
-                                  },
-                              "36":
-                                 {"name":"attack_setting",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "37":
-                                 {"name":"Alien prob",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "38":
-                                 {"name":"Alien scout",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "39":
-                                 {"name":"Alien Transporter",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "40":
-                                 {"name":"Alien Fast Attack Ship",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "41":
-                                 {"name":"Alien Destroyer",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "42":
-                                 {"name":"Alien Assault Ship",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "43":
-                                 {"name":"Alien Bomber",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "44":
-                                 {"name":"Alien Escort",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "45":
-                                 {"name":"Alien Battleship",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "46":
-                                 {"name":"Alien Mothership",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "47":
-                                 {"name":"Police Hovercar",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "48":
-                                 {"name":"Airtaxi",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "49":
-                                 {"name":"Rescue Transport",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "50":
-                                 {"name":"Construction Vehicle",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "51":
-                                 {"name":"Airtrans",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "52":
-                                 {"name":"Space Liner",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "53":
-                                 {"name":"Phoenix Hovercar",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "54":
-                                 {"name":"Hoverbike",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "55":
-                                 {"name":"Valkyrie Interceptor",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "56":
-                                 {"name":"Hawk Air Warrior",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "57":
-                                 {"name":"Dimension Probe",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "58":
-                                 {"name":"Biotrans",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "59":
-                                 {"name":"Explorer",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "60":
-                                 {"name":"Retaliator",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "61":
-                                 {"name":"Annihilator",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "62":
-                                 {"name":"Autotaxi",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "63":
-                                 {"name":"Autotrans",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "64":
-                                 {"name":"Police Car",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "65":
-                                 {"name":"Civilian Car",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "66":
-                                 {"name":"Stormdog",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "67":
-                                 {"name":"Wolfhound APC",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "68":
-                                 {"name":"Blazer Turbo Bike",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "69":
-                                 {"name":"Griffon AFV",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "70":
-                                 {"name":"Overspawn",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "71":
-                                 {"name":"retriat",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "72":
-                                 {"name":"Alien prob",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "73":
-                                 {"name":"Alien scout",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "74":
-                                 {"name":"Alien Transporter",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "75":
-                                 {"name":"Alien Fast Attack Ship",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "76":
-                                 {"name":"Alien Destroyer",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "77":
-                                 {"name":"Alien Assault Ship",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "78":
-                                 {"name":"Alien Bomber",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "79":
-                                 {"name":"Alien Escort",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "80":
-                                 {"name":"Alien Battleship",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "81":
-                                 {"name":"Alien Mothership",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "82":
-                                 {"name":"Police Hovercar",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "83":
-                                 {"name":"Airtaxi",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "84":
-                                 {"name":"Rescue Transport",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "85":
-                                 {"name":"Construction Vehicle",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "86":
-                                 {"name":"Airtrans",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "87":
-                                 {"name":"Space Liner",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "88":
-                                 {"name":"Phoenix Hovercar",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "89":
-                                 {"name":"Hoverbike",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "90":
-                                 {"name":"Valkyrie Interceptor",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "91":
-                                 {"name":"Hawk Air Warrior",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "92":
-                                 {"name":"Dimension Probe",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "93":
-                                 {"name":"Biotrans",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "94":
-                                 {"name":"Explorer",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "95":
-                                 {"name":"Retaliator",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "96":
-                                 {"name":"Annihilator",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "97":
-                                 {"name":"Autotaxi",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "98":
-                                 {"name":"Autotrans",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "99":
-                                 {"name":"Police Car",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "100":
-                                 {"name":"Civilian Car",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "101":
-                                 {"name":"Stormdog",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "102":
-                                 {"name":"Wolfhound APC",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "103":
-                                 {"name":"Blazer Turbo Bike",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "104":
-                                 {"name":"Griffon AFV",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "105":
-                                 {"name":"Overspawn",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "106":
-                                 {"name":"field_6C",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "107":
-                                 {"name":"Alien prob",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "108":
-                                 {"name":"Alien scout",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "109":
-                                 {"name":"Alien Transporter",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "110":
-                                 {"name":"Alien Fast Attack Ship",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "111":
-                                 {"name":"Alien Destroyer",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "112":
-                                 {"name":"Alien Assault Ship",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "113":
-                                 {"name":"Alien Bomber",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "114":
-                                 {"name":"Alien Escort",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "115":
-                                 {"name":"Alien Battleship",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "116":
-                                 {"name":"Alien Mothership",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "117":
-                                 {"name":"Police Hovercar",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "118":
-                                 {"name":"Airtaxi",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "119":
-                                 {"name":"Rescue Transport",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "120":
-                                 {"name":"Construction Vehicle",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "121":
-                                 {"name":"Airtrans",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "122":
-                                 {"name":"Space Liner",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "123":
-                                 {"name":"Phoenix Hovercar",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "124":
-                                 {"name":"Hoverbike",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "125":
-                                 {"name":"Valkyrie Interceptor",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "126":
-                                 {"name":"Hawk Air Warrior",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "127":
-                                 {"name":"Dimension Probe",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "128":
-                                 {"name":"Biotrans",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "129":
-                                 {"name":"Explorer",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "130":
-                                 {"name":"Retaliator",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "131":
-                                 {"name":"Annihilator",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "132":
-                                 {"name":"Autotaxi",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "133":
-                                 {"name":"Autotrans",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "134":
-                                 {"name":"Police Car",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "135":
-                                 {"name":"Civilian Car",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "136":
-                                 {"name":"Stormdog",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "137":
-                                 {"name":"Wolfhound APC",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "138":
-                                 {"name":"Blazer Turbo Bike",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "139":
-                                 {"name":"Griffon AFV",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "140":
-                                 {"name":"Overspawn",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"attack enabled for this type"
-                                  },
-                              "141":
-                                 {"name":"field_8D",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "142":
-                                 {"name":"attack_limit_range",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "143":
-                                 {"name":"mission",
-                                  "enum":"vehicle_mission",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "144":
-                                 {"name":"points_before_retreating",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"in percents"
-                                  }
-                              }
-           },
-        "77":{
-                    "name": "falling tile struc",
-                    "struc_count": 64,
-                    "type": "struc",
-					"sign":"False",
-					"enum":"False",
-					"enum_type":"False",
-					"comment":"No Comment",
-					"struc_member":"34",
-					"struc":{
-					         "0":
-                                 {"name":"x_value",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "1":
-                                 {"name":"y_value",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "2":
-                                 {"name":"z_value",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "3":
-                                 {"name":"tile_count",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "4":
-                                 {"name":"field_4",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "5":
-                                 {"name":"field_5",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "6":
-                                 {"name":"field_6",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "7":
-                                 {"name":"field_7",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "8":
-                                 {"name":"field_8",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "9":
-                                 {"name":"field_9",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "10":
-                                 {"name":"field_A",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "11":
-                                 {"name":"field_B",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "12":
-                                 {"name":"field_C",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "13":
-                                 {"name":"field_D",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "14":
-                                 {"name":"field_E",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "15":
-                                 {"name":"field_F",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "16":
-                                 {"name":"field_10",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "17":
-                                 {"name":"field_11",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "18":
-                                 {"name":"field_12",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "19":
-                                 {"name":"field_13",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "20":
-                                 {"name":"field_14",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "21":
-                                 {"name":"field_15",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "22":
-                                 {"name":"field_16",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "23":
-                                 {"name":"field_17",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "24":
-                                 {"name":"field_18",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "25":
-                                 {"name":"field_19",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "26":
-                                 {"name":"field_1A",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "27":
-                                 {"name":"field_1B",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "28":
-                                 {"name":"constitution",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "29":
-                                 {"name":"field_1D",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "30":
-                                 {"name":"field_1E",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "31":
-                                 {"name":"field_1F",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "32":
-                                 {"name":"mass",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "33":
-                                 {"name":"field_21",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                 }
-                     }
-           },
-        "78":{
-                    "name": "tile_dem_ind",
-                    "struc_count": 1,
-                    "type": "struc",
-					"sign":"False",
-					"enum":"False",
-					"enum_type":"False",
-					"comment":"No Comment",
-					"struc_member":"193",
-					"struc":{
-					         "0":
-                                 {"name":"used_flag",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "1":
-                                 {"name":"x1_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "2":
-                                 {"name":"x2_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "3":
-                                 {"name":"x3_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "4":
-                                 {"name":"x4_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "5":
-                                 {"name":"x5_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "6":
-                                 {"name":"x6_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "7":
-                                 {"name":"x7_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "8":
-                                 {"name":"x8_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "9":
-                                 {"name":"x9_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "10":
-                                 {"name":"x10_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "11":
-                                 {"name":"x11_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "12":
-                                 {"name":"x12_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "13":
-                                 {"name":"x13_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "14":
-                                 {"name":"x14_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "15":
-                                 {"name":"x15_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "16":
-                                 {"name":"x16_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "17":
-                                 {"name":"x17_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "18":
-                                 {"name":"x18_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "19":
-                                 {"name":"x19_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "20":
-                                 {"name":"x20_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "21":
-                                 {"name":"x21_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "22":
-                                 {"name":"x22_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "23":
-                                 {"name":"x23_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "24":
-                                 {"name":"x24_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "25":
-                                 {"name":"x25_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "26":
-                                 {"name":"x26_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "27":
-                                 {"name":"x27_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "28":
-                                 {"name":"x28_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "29":
-                                 {"name":"x29_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "30":
-                                 {"name":"x30_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "31":
-                                 {"name":"x31_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "32":
-                                 {"name":"x32_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "33":
-                                 {"name":"x33_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "34":
-                                 {"name":"x34_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "35":
-                                 {"name":"x35_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "36":
-                                 {"name":"x36_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "37":
-                                 {"name":"x37_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "38":
-                                 {"name":"x38_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "39":
-                                 {"name":"x39_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "40":
-                                 {"name":"x40_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "41":
-                                 {"name":"x41_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "42":
-                                 {"name":"x42_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "43":
-                                 {"name":"x43_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "44":
-                                 {"name":"x44_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "45":
-                                 {"name":"x45_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "46":
-                                 {"name":"x46_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "47":
-                                 {"name":"x47_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "48":
-                                 {"name":"x48_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "49":
-                                 {"name":"x49_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "50":
-                                 {"name":"x50_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "51":
-                                 {"name":"x51_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "52":
-                                 {"name":"x52_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "53":
-                                 {"name":"x53_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "54":
-                                 {"name":"x54_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "55":
-                                 {"name":"x55_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "56":
-                                 {"name":"x56_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "57":
-                                 {"name":"x57_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "58":
-                                 {"name":"x58_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "59":
-                                 {"name":"x59_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "60":
-                                 {"name":"x60_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "61":
-                                 {"name":"x61_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "62":
-                                 {"name":"x62_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "63":
-                                 {"name":"x63_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "64":
-                                 {"name":"x64_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "65":
-                                 {"name":"y1_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "66":
-                                 {"name":"y2_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "67":
-                                 {"name":"y3_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "68":
-                                 {"name":"y4_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "69":
-                                 {"name":"y5_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "70":
-                                 {"name":"y6_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "71":
-                                 {"name":"y7_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "72":
-                                 {"name":"y8_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "73":
-                                 {"name":"y9_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "74":
-                                 {"name":"y10_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "75":
-                                 {"name":"y11_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "76":
-                                 {"name":"y12_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "77":
-                                 {"name":"y13_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "78":
-                                 {"name":"y14_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "79":
-                                 {"name":"y15_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "80":
-                                 {"name":"y16_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "81":
-                                 {"name":"y17_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "82":
-                                 {"name":"y18_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "83":
-                                 {"name":"y19_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "84":
-                                 {"name":"y20_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "85":
-                                 {"name":"y21_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "86":
-                                 {"name":"y22_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "87":
-                                 {"name":"y23_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "88":
-                                 {"name":"y24_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "89":
-                                 {"name":"y25_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "90":
-                                 {"name":"y26_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "91":
-                                 {"name":"y27_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "92":
-                                 {"name":"y28_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "93":
-                                 {"name":"y29_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "94":
-                                 {"name":"y30_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "95":
-                                 {"name":"y31_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "96":
-                                 {"name":"y32_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "97":
-                                 {"name":"y33_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "98":
-                                 {"name":"y34_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "99":
-                                 {"name":"y35_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "100":
-                                 {"name":"y36_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "101":
-                                 {"name":"y37_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "102":
-                                 {"name":"y38_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "103":
-                                 {"name":"y39_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "104":
-                                 {"name":"y40_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "105":
-                                 {"name":"y41_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "106":
-                                 {"name":"y42_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "107":
-                                 {"name":"y43_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "108":
-                                 {"name":"y44_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "109":
-                                 {"name":"y45_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "110":
-                                 {"name":"y46_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "111":
-                                 {"name":"y47_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "112":
-                                 {"name":"y48_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "113":
-                                 {"name":"y49_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "114":
-                                 {"name":"y50_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "115":
-                                 {"name":"y51_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "116":
-                                 {"name":"y52_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "117":
-                                 {"name":"y53_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "118":
-                                 {"name":"y54_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "119":
-                                 {"name":"y55_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "120":
-                                 {"name":"y56_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "121":
-                                 {"name":"y57_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "122":
-                                 {"name":"y58_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "123":
-                                 {"name":"y59_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "124":
-                                 {"name":"y60_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "125":
-                                 {"name":"y61_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "126":
-                                 {"name":"y62_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "127":
-                                 {"name":"y63_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "128":
-                                 {"name":"y64_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "129":
-                                 {"name":"z1_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "130":
-                                 {"name":"z2_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "131":
-                                 {"name":"z3_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "132":
-                                 {"name":"z4_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "133":
-                                 {"name":"z5_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "134":
-                                 {"name":"z6_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "135":
-                                 {"name":"z7_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "136":
-                                 {"name":"z8_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "137":
-                                 {"name":"z9_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "138":
-                                 {"name":"z10_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "139":
-                                 {"name":"z11_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "140":
-                                 {"name":"z12_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "141":
-                                 {"name":"z13_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "142":
-                                 {"name":"z14_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "143":
-                                 {"name":"z15_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "144":
-                                 {"name":"z16_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "145":
-                                 {"name":"z17_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "146":
-                                 {"name":"z18_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "147":
-                                 {"name":"z19_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "148":
-                                 {"name":"z20_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "149":
-                                 {"name":"z21_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "150":
-                                 {"name":"z22_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "151":
-                                 {"name":"z23_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "152":
-                                 {"name":"z24_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "153":
-                                 {"name":"z25_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "154":
-                                 {"name":"z26_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "155":
-                                 {"name":"z27_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "156":
-                                 {"name":"z28_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "157":
-                                 {"name":"z29_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "158":
-                                 {"name":"z30_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "159":
-                                 {"name":"z31_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "160":
-                                 {"name":"z32_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "161":
-                                 {"name":"z33_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "162":
-                                 {"name":"z34_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "163":
-                                 {"name":"z35_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "164":
-                                 {"name":"z36_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "165":
-                                 {"name":"z37_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "166":
-                                 {"name":"z38_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "167":
-                                 {"name":"z39_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "168":
-                                 {"name":"z40_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "169":
-                                 {"name":"z41_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "170":
-                                 {"name":"z42_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "171":
-                                 {"name":"z43_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "172":
-                                 {"name":"z44_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "173":
-                                 {"name":"z45_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "174":
-                                 {"name":"z46_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "175":
-                                 {"name":"z47_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "176":
-                                 {"name":"z48_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "177":
-                                 {"name":"z49_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "178":
-                                 {"name":"z50_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "179":
-                                 {"name":"z51_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "180":
-                                 {"name":"z52_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "181":
-                                 {"name":"z53_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "182":
-                                 {"name":"z54_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "183":
-                                 {"name":"z55_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "184":
-                                 {"name":"z56_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "185":
-                                 {"name":"z57_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "186":
-                                 {"name":"z58_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "187":
-                                 {"name":"z59_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "188":
-                                 {"name":"z60_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "189":
-                                 {"name":"z61_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "190":
-                                 {"name":"z62_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "191":
-                                 {"name":"z63_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "192":
-                                 {"name":"z64_value",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  }
-                    }
-           },
-        "79":{
-                    "name": "agent_inventory",
-                    "struc_count": 150,
-                    "type": "struc",
-					"sign":"False",
-					"enum":"False",
-					"enum_type":"False",
-					"comment":"No Comment",
-					"struc_member":"157",
-					"struc":{
-					         "0":
-                                 {"name":"agent",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "1":
-                                 {"name":"right_hand",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "2":
-                                 {"name":"left_hend",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "3":
-                                 {"name":"right_leg",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "4":
-                                 {"name":"left_leg",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "5":
-                                 {"name":"right_belt_1",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "6":
-                                 {"name":"right_belt_2",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "7":
-                                 {"name":"right_belt_3",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "8":
-                                 {"name":"right_belt_4",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "9":
-                                 {"name":"left_belt_1",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "10":
-                                 {"name":"left_belt_2",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "11":
-                                 {"name":"left_belt_3",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "12":
-                                 {"name":"left_belt_4",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "13":
-                                 {"name":"right_shoulder",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "14":
-                                 {"name":"left_shoulder",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "15":
-                                 {"name":"back_pack_1A",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "16":
-                                 {"name":"back_pack_1B",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "17":
-                                 {"name":"back_pack_1C",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "18":
-                                 {"name":"back_pack_1D",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "19":
-                                 {"name":"back_pack_2A",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "20":
-                                 {"name":"back_pack_2B",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "21":
-                                 {"name":"back_pack_2C",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "22":
-                                 {"name":"back_pack_2D",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "23":
-                                 {"name":"back_pack_3A",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "24":
-                                 {"name":"back_pack_3B",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "25":
-                                 {"name":"back_pack_3C",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "26":
-                                 {"name":"back_pack_3D",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "27":
-                                 {"name":"back_pack_4A",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "28":
-                                 {"name":"back_pack_4B",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "29":
-                                 {"name":"back_pack_4C",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "30":
-                                 {"name":"back_pack_4D",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "31":
-                                 {"name":"back_pack_5A",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "32":
-                                 {"name":"back_pack_5B",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "33":
-                                 {"name":"back_pack_5C",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "34":
-                                 {"name":"back_pack_5D",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "35":
-                                 {"name":"armor(left_arm)",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "36":
-                                 {"name":"armor(right_arm)",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "37":
-                                 {"name":"armor(body)",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "38":
-                                 {"name":"armor(legs)",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "39":
-                                 {"name":"armor(head)",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "40":
-                                 {"name":"armor(unknown)",
-                                  "enum":"agent_equipment",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "41":
-                                 {"name":"unknown_42",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "42":
-                                 {"name":"unknown_43",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "43":
-                                 {"name":"unknown_44",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "44":
-                                 {"name":"unknown_45",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "45":
-                                 {"name":"unknown_46",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "46":
-                                 {"name":"unknown_47",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "47":
-                                 {"name":"unknown_48",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "48":
-                                 {"name":"unknown_49",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "49":
-                                 {"name":"unknown_50",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "50":
-                                 {"name":"unknown_51",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "51":
-                                 {"name":"unknown_52",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "52":
-                                 {"name":"unknown_53",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "53":
-                                 {"name":"unknown_53",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "54":
-                                 {"name":"r_hend_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "55":
-                                 {"name":"l_hend_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "56":
-                                 {"name":"r_leg_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "57":
-                                 {"name":"l_leg_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "58":
-                                 {"name":"r_belt_1_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "58":
-                                 {"name":"r_belt_2_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "59":
-                                 {"name":"r_belt_3_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "60":
-                                 {"name":"r_belt_4_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "61":
-                                 {"name":"l_belt_1_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "62":
-                                 {"name":"l_belt_2_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "63":
-                                 {"name":"l_belt_3_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "64":
-                                 {"name":"l_belt_4_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "65":
-                                 {"name":"r_shoulder_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "66":
-                                 {"name":"l_shoulder_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "67":
-                                 {"name":"back_pack_1A_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "68":
-                                 {"name":"back_pack_1B_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "69":
-                                 {"name":"back_pack_1C_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "70":
-                                 {"name":"back_pack_1D_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "71":
-                                 {"name":"back_pack_2A_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "72":
-                                 {"name":"back_pack_2B_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "73":
-                                 {"name":"back_pack_2C_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "74":
-                                 {"name":"back_pack_2D_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "75":
-                                 {"name":"back_pack_3A_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "76":
-                                 {"name":"back_pack_3B_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "77":
-                                 {"name":"back_pack_3C_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "78":
-                                 {"name":"back_pack_3D_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "79":
-                                 {"name":"back_pack_4A_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "80":
-                                 {"name":"back_pack_4B_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "81":
-                                 {"name":"back_pack_4C_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "82":
-                                 {"name":"back_pack_4D_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "83":
-                                 {"name":"back_pack_5A_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "84":
-                                 {"name":"back_pack_5B_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "85":
-                                 {"name":"back_pack_5C_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "86":
-                                 {"name":"back_pack_5D_ammo",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "87":
-                                 {"name":"unknown_92",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "88":
-                                 {"name":"unknown_93",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "89":
-                                 {"name":"unknown_94",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "90":
-                                 {"name":"unknown_95",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "91":
-                                 {"name":"unknown_96",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "92":
-                                 {"name":"unknown_97",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "93":
-                                 {"name":"unknown_98",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "94":
-                                 {"name":"unknown_99",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "95":
-                                 {"name":"unknown_100",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "96":
-                                 {"name":"unknown_101",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "97":
-                                 {"name":"unknown_102",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "98":
-                                 {"name":"unknown_103",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "99":
-                                 {"name":"unknown_104",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "100":
-                                 {"name":"unknown_105",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "101":
-                                 {"name":"unknown_106",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "102":
-                                 {"name":"unknown_107",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "103":
-                                 {"name":"unknown_108",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "104":
-                                 {"name":"unknown_109",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "105":
-                                 {"name":"r_hend_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "106":
-                                 {"name":"l_hend_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "107":
-                                 {"name":"r_leg_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "108":
-                                 {"name":"l_leg_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "109":
-                                 {"name":"r_belt_1_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "110":
-                                 {"name":"r_belt_2_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "111":
-                                 {"name":"r_belt_3_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "112":
-                                 {"name":"r_belt_4_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "113":
-                                 {"name":"l_belt_1_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "114":
-                                 {"name":"l_belt_2_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "115":
-                                 {"name":"l_belt_3_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "116":
-                                 {"name":"l_belt_4_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "117":
-                                 {"name":"r_shoulder_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "118":
-                                 {"name":"l_shoulder_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "119":
-                                 {"name":"back_pack_1A_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "120":
-                                 {"name":"back_pack_1B_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "121":
-                                 {"name":"back_pack_1C_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "122":
-                                 {"name":"back_pack_1D_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "123":
-                                 {"name":"back_pack_2A_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "124":
-                                 {"name":"back_pack_2B_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "125":
-                                 {"name":"back_pack_2C_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "126":
-                                 {"name":"back_pack_2D_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "127":
-                                 {"name":"back_pack_3A_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "128":
-                                 {"name":"back_pack_3B_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "129":
-                                 {"name":"back_pack_3C_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "130":
-                                 {"name":"back_pack_3D_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "131":
-                                 {"name":"back_pack_4A_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "132":
-                                 {"name":"back_pack_4B_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "133":
-                                 {"name":"back_pack_4C_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "134":
-                                 {"name":"back_pack_4D_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "135":
-                                 {"name":"back_pack_5A_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "136":
-                                 {"name":"back_pack_5B_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "137":
-                                 {"name":"back_pack_5C_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "138":
-                                 {"name":"back_pack_5D_weapon_type",
-                                  "enum":"agent_equipment_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "139":
-                                 {"name":"unknown_140",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "140":
-                                 {"name":"unknown_141",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "141":
-                                 {"name":"unknown_142",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "142":
-                                 {"name":"unknown_143",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "143":
-                                 {"name":"unknown_144",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "144":
-                                 {"name":"unknown_145",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "145":
-                                 {"name":"unknown_146",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "146":
-                                 {"name":"unknown_147",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "147":
-                                 {"name":"unknown_148",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "148":
-                                 {"name":"unknown_149",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "149":
-                                 {"name":"unknown_150",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "150":
-                                 {"name":"unknown_151",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "151":
-                                 {"name":"unknown_152",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "152":
-                                 {"name":"unknown_153",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "153":
-                                 {"name":"unknown_154",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "154":
-                                 {"name":"unknown_155",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "155":
-                                 {"name":"unknown_156",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                              "156":
-                                 {"name":"unknown_157",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  }
-                     }
-           },
-        "80":{
-                    "name": "log_history_struc",
-                    "struc_count": 122,
-                    "type": "struc",
-					"sign":"False",
-					"enum":"False",
-					"enum_type":"False",
-					"comment":"No Comment",
-					"struc_member":"16",
-					"struc":{
-					         "0":
-                                 {"name":"count",
-                                  "enum":"False",
-                                  "size":4,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                               "1":
-                                 {"name":"field_4",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                               "2":
-                                 {"name":"field_5",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                               "3":
-                                 {"name":"year",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                               "4":
-                                 {"name":"month",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                               "5":
-                                 {"name":"day",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                               "6":
-                                 {"name":"hour",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                               "7":
-                                 {"name":"minute",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                               "8":
-                                 {"name":"second",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                               "9":
-                                 {"name":"x_pos",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                               "10":
-                                 {"name":"y_pos",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                               "11":
-                                 {"name":"z_pos",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                               "12":
-                                 {"name":"text",
-                                  "enum":"False",
-                                  "size":55,
-                                  "sign":"string",
-                                  "comment":"No Comment"
-                                  },
-                               "13":
-                                 {"name":"field_4F",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"True",
-                                  "comment":"No Comment"
-                                  },
-                               "14":
-                                 {"name":"alien_demen_flag",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                               "15":
-                                 {"name":"field_51",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  }
-                            }
-           },
-        "81":{
-                    "name": "cargo_item",
-                    "struc_count": 256,
-                    "type": "struc",
-					"sign":"False",
-					"enum":"False",
-					"enum_type":"False",
-					"comment":"No Comment",
-					"struc_member":"5",
-					"struc":{
-					         "0":
-                                 {"name":"vehicle",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                               "1":
-                                 {"name":"item",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                               "2":
-                                 {"name":"amount",
-                                  "enum":"False",
-                                  "size":2,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                               "3":
-                                 {"name":"item_type",
-                                  "enum":"cargo_item_type",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-                               "4":
-                                 {"name":"field_7",
-                                  "enum":"False",
-                                  "size":1,
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  }
-                           }
-           },
-        "82":{
+        "95":{
                     "name": "unit_select_struc",
                     "struc_count": 20,
                     "type": "struc",
@@ -17855,7 +11707,7 @@
                                   }
                             }
            },
-        "83":{
+       "96":{
                     "name": "funds_struc_save",
                     "struc_count": 27,
                     "type": "struc",
@@ -18665,7 +12517,7 @@
                                   }
 					}
            },
-        "84":{
+       "97":{
                     "name": "citymap_z0",
                     "struc_count": 1000,
                     "type": "struc",
@@ -18747,7 +12599,7 @@
                                    }
                             }
            },
-        "85":{
+       "98":{
                     "name": "citymap_z1",
                     "struc_count": 1000,
                     "type": "struc",
@@ -18829,7 +12681,7 @@
                                    }
                             }
            },
-        "86":{
+       "99":{
                     "name": "citymap_z2",
                     "struc_count": 1000,
                     "type": "struc",
@@ -18911,7 +12763,7 @@
                                    }
                             }
            },
-        "87":{
+       "100":{
                     "name": "citymap_z3",
                     "struc_count": 1000,
                     "type": "struc",
@@ -18993,7 +12845,7 @@
                                    }
                             }
            },
-        "88":{
+       "101":{
                     "name": "citymap_z4",
                     "struc_count": 1000,
                     "type": "struc",
@@ -19075,7 +12927,7 @@
                                    }
                             }
            },
-        "89":{
+       "102":{
                     "name": "citymap_z5",
                     "struc_count": 1000,
                     "type": "struc",
@@ -19157,7 +13009,7 @@
                                    }
                             }
            },
-        "90":{
+       "103":{
                     "name": "citymap_z6",
                     "struc_count": 1000,
                     "type": "struc",
@@ -19239,7 +13091,7 @@
                                    }
                             }
            },
-        "91":{
+       "104":{
                     "name": "citymap_z7",
                     "struc_count": 1000,
                     "type": "struc",
@@ -19321,7 +13173,7 @@
                                    }
                             }
            },
-        "92":{
+       "105":{
                     "name": "citymap_z8",
                     "struc_count": 1000,
                     "type": "struc",
@@ -19403,7 +13255,7 @@
                                    }
                             }
            },
-        "93":{
+       "106":{
                     "name": "citymap_z9",
                     "struc_count": 1000,
                     "type": "struc",

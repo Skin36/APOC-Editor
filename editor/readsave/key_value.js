@@ -328,7 +328,8 @@
                     "84":"Psiclone",
                     "85":"Elerium",
                     "86":"Alien Artifact",
-                    "-1":"Filler"
+                    "-1":"Filler",
+                    "255":"Empty"
                    },
         "agent_equipment_type":{
                     "0":"None",
@@ -375,7 +376,8 @@
                     "41":"Hyperworms Bite",
                     "42":"Queenspawns Tentacles",
                     "43":"Poppers Bomb",
-                    "-1":"Filler"
+                    "-1":"Filler",
+                    "255":"Empty"
                    },
 		"craft_equip":{
 			        "-1":"not used",
@@ -1282,6 +1284,12 @@
 				   "7":"unused_4",
 				   "8":"unused_3",
 				   "9":"Treaty"
+				  },
+	    "xcom_mission_type":{
+				    "1":"Alien_building",
+				    "2":"Base_mission",
+				    "3":"UFO_mission",
+				    "4":"Raid"
 				  },
 				   
 		"reserch":{
