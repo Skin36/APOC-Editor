@@ -1244,7 +1244,7 @@
 					"size": 768,
                     "type": "simple",
 					"enum":"False",
-					"sign":"False",
+					"sign":"seek",
 					"comment":"pallette"
              },
         "78":{
@@ -1252,7 +1252,7 @@
 					"size": 768,
                     "type": "simple",
 					"enum":"False",
-					"sign":"False",
+					"sign":"seek",
 					"comment":"pallette"
              },
         "79":{
@@ -1260,7 +1260,7 @@
 					"size": 768,
                     "type": "simple",
 					"enum":"False",
-					"sign":"False",
+					"sign":"seek",
 					"comment":"pallette"
              },
         "80":{
@@ -1268,7 +1268,7 @@
 					"size": 768,
                     "type": "simple",
 					"enum":"False",
-					"sign":"False",
+					"sign":"seek",
 					"comment":"pallette"
              },
         "81":{
@@ -1276,15 +1276,15 @@
 					"size": 768,
                     "type": "simple",
 					"enum":"False",
-					"sign":"False",
-					"comment":"No Comment"
+					"sign":"seek",
+					"comment":"pallette"
              },
         "82":{
                     "name": "equip_pal",
 					"size": 768,
                     "type": "simple",
 					"enum":"False",
-					"sign":"False",
+					"sign":"seek",
 					"comment":"pallette"
              },
         "83":{
@@ -1292,8 +1292,8 @@
 					"size": 256,
                     "type": "simple",
 					"enum":"False",
-					"sign":"False",
-					"comment":"pallette"
+					"sign":"seek",
+					"comment":"No Comment"
              },
         "84":{
                     "name": "dword_27A870",
@@ -1301,7 +1301,7 @@
                     "type": "simple",
 					"enum":"False",
 					"sign":"False",
-					"comment":"pallette"
+					"comment":"No Comment"
              },
         "85":{
                     "name": "byte_27A0EA",
@@ -1317,7 +1317,7 @@
                     "type": "simple",
 					"enum":"False",
 					"sign":"False",
-					"comment":"pallette"
+					"comment":"No Comment"
              },
 
        "87":{
@@ -1326,15 +1326,15 @@
                     "type": "simple",
 					"enum":"False",
 					"sign":"False",
-					"comment":"pallette"
+					"comment":"No Comment"
              },
        "88":{
                     "name": "empty",
-					"size": 2,
+					"size": 1,
                     "type": "simple",
 					"enum":"False",
-					"sign":"False",
-					"comment":"pallette"
+					"sign":"seek",
+					"comment":"No Comment"
              },
 
        "89":{

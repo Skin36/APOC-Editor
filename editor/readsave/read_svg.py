@@ -280,6 +280,9 @@ def read_save(file_save,root):
 
             if sign_gl=="string":
                 entry = entry.decode(encoding="ASCII").rstrip('\x00')
+            elif sign_gl == "seek":
+                savef.seek(save_data[str(x)]["size"], 1)
+                entry = size
             else:
                 entry=int.from_bytes(entry, byteorder='little',signed=sign_gl)
 
@@ -327,6 +330,7 @@ def read_save(file_save,root):
             struc_list.append(list_temp)
 
 
+
     savef.close()
 
     #add botton 132
@@ -341,7 +345,7 @@ def read_save(file_save,root):
 
         if type=="struc":
             btn = Button(root, text=name, width=26, height=1, command=lambda f=btn: struc_open(f))
-        elif type=="simple" and sign_gl!="string":
+        elif type=="simple" and sign_gl!="string" and sign_gl != "seek":
             enum = save_data[str(y)]["enum"]
             if enum!="False":
                 key = key_value[enum][str(struc_list[int(btn.split('_')[1])]['entry'])]
@@ -350,8 +354,9 @@ def read_save(file_save,root):
             else:
                 btn=Button(root, text=name+"="+str(struc_list[int(btn.split('_')[1])]['entry']), width=26, height=1,
                        command=lambda f = btn: simple_open(f))
+        elif type=="simple" and sign_gl == "seek":
+            btn = Button(root, text=name, width=26, height=1)
         else:
-
             btn = Button(root, text=name, width=26, height=1, command=lambda f=btn: simple_open(f))
 
         btn.grid(row=cur_row, column=cur_column)
