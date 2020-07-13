@@ -7,7 +7,7 @@ struc_list = []
 #выравнивание первого элемента массива
 struc_list.append(0)
 
-with open('editor\\readsave\\key_value.js', encoding='utf8') as key_value:
+with open(os.path.join('editor','readsave','key_value.js'), encoding='utf8') as key_value:
     key_value = json.load(key_value)
 
 
@@ -16,11 +16,11 @@ with open('editor\\readsave\\key_value.js', encoding='utf8') as key_value:
 def read_save(file_save,root):
     # add dict for save strure
     if file_save[-11:-3]=="TACTGAME":
-        with open('editor\\readsave\\tac_save_offsets.js', encoding='utf8') as data_file:
+        with open(os.path.join('editor','readsave','tac_save_offsets.js'), encoding='utf8') as data_file:
             save_data = json.load(data_file)
         entry_count=90
     elif file_save[-11:-3]=="SAVEGAME":
-        with open('editor\\readsave\\save_offsets.js', encoding='utf8') as data_file:
+        with open(os.path.join('editor','readsave','save_offsets.js'), encoding='utf8') as data_file:
             save_data = json.load(data_file)
         entry_count = 142
 
