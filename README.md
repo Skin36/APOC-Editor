@@ -18,4 +18,5 @@
 * Can edit vehicles and equipment
 * Can edit weapons and ammo
 * Can edit armors
+* Unlock tech levels
 * and more ...
