@@ -1,6 +1,6 @@
-# APOCTOR
+# APOCTOR (APOC-Editor)
 
-> APOCTOR - its tool for viewing and and edit various metrics in saved games in X-Com Apocalypse. Its created by Skin36 from OpenApoc community. With this tool you can check the various mechanics, timings and algorithms of the game ...
+> APOCTOR (APOC-Editor) - its tool for viewing and edit various metrics in saved games in X-Com Apocalypse. Its created by Skin36 from OpenApoc community. With this tool you can check the various mechanics, timings and algorithms of the game. You can help with ...
 
 [![Openapoc Discord](https://img.shields.io/discord/142798944970211328.svg?label=discord)](https://discord.gg/f8Rayre)
 [![Openapoc OpenApoc_Wiki](https://img.shields.io/badge/OpenApoc-Wiki-blue.svg)](https://www.ufopaedia.org/index.php/OpenApoc)
@@ -18,4 +18,4 @@
 * Can edit vehicles and equipment
 * Can edit weapons and ammo
 * Can edit armors
-...
+* and more ...
