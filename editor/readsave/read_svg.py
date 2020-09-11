@@ -7,7 +7,7 @@ struc_list = []
 #выравнивание первого элемента массива
 struc_list.append(0)
 
-with open(os.path.join('editor','readsave','key_value.js'), encoding='utf8') as key_value:
+with open('editor\\readsave\\key_value.js', encoding='utf8') as key_value:
     key_value = json.load(key_value)
 
 
@@ -16,13 +16,13 @@ with open(os.path.join('editor','readsave','key_value.js'), encoding='utf8') as 
 def read_save(file_save,root):
     # add dict for save strure
     if file_save[-11:-3]=="TACTGAME":
-        with open(os.path.join('editor','readsave','tac_save_offsets.js'), encoding='utf8') as data_file:
+        with open('editor\\readsave\\tac_save_offsets.js', encoding='utf8') as data_file:
             save_data = json.load(data_file)
         entry_count=90
     elif file_save[-11:-3]=="SAVEGAME":
-        with open(os.path.join('editor','readsave','save_offsets.js'), encoding='utf8') as data_file:
+        with open('editor\\readsave\\save_offsets.js', encoding='utf8') as data_file:
             save_data = json.load(data_file)
-        entry_count = 142
+        entry_count = 133
 
     cur_row = 1
     cur_column = 1
@@ -168,7 +168,8 @@ def read_save(file_save,root):
                         if entry_['enum'] == "False":
                                 savef.write(int(field[str(val_)].get()).to_bytes(entry_['size'], byteorder='little', signed=False))
                         else:
-                            pass
+                            print(entry_)
+                            savef.write(entry_['entry'].to_bytes(entry_['size'], byteorder='little', signed=True))
                     elif entry_['sign']== "True":
                         savef.write(int(field[str(val_)].get()).to_bytes(entry_['size'], byteorder='little', signed=True))
                     elif entry_['sign']== "string":
@@ -276,14 +277,18 @@ def read_save(file_save,root):
             size = save_data[str(x)]["size"]
             comment=save_data[str(x)]["comment"]
             offset = savef.tell()
-            entry=savef.read(size)
+
+
 
             if sign_gl=="string":
+                entry = savef.read(size)
                 entry = entry.decode(encoding="ASCII").rstrip('\x00')
             elif sign_gl == "seek":
-                savef.seek(save_data[str(x)]["size"], 1)
+                savef.seek(size, 1)
                 entry = size
+                offset = savef.tell()
             else:
+                entry = savef.read(size)
                 entry=int.from_bytes(entry, byteorder='little',signed=sign_gl)
 
             struc_template = {

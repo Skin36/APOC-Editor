@@ -1309,7 +1309,7 @@
                     "type": "simple",
 					"enum":"False",
 					"sign":"False",
-					"comment":"pallette"
+					"comment":"No Comment"
              },
        "86":{
                     "name": "byte_27A0EB",
@@ -1330,7 +1330,7 @@
              },
        "88":{
                     "name": "empty",
-					"size": 1,
+					"size": 2,
                     "type": "simple",
 					"enum":"False",
 					"sign":"seek",
@@ -1722,1737 +1722,90 @@
 							}
            },
        "90":{
-                    "name": "projectile_struc",
-                    "struc_count": 50,
-                    "type": "struc",
-					"sign":"False",
-					"enum":"False",
-					"enum_type":"False",
-					"comment":"No Comment",
-					"struc_member":"175",
-					"struc":{
-					         "0":
-                                 {"name":"weapon_type",
-                                  "enum":"craft_equip",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"craft equip enum"
-                                  },
-							"1":
-                                 {"name":"prog_image",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"2":
-                                 {"name":"prog_speed",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"3":
-                                 {"name":"prog_x_pos_1",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"4":
-                                 {"name":"prog_x_pos_2",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"5":
-                                 {"name":"prog_x_pos_3",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"6":
-                                 {"name":"prog_x_pos_4",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"7":
-                                 {"name":"prog_x_pos_5",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"8":
-                                 {"name":"prog_x_pos_6",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"9":
-                                 {"name":"prog_x_pos_7",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"10":
-                                 {"name":"prog_x_pos_8",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"11":
-                                 {"name":"prog_x_pos_9",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                 "comment":"No Comment"
-                                  },
-							"12":
-                                 {"name":"prog_x_pos_10",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"13":
-                                 {"name":"prog_x_pos_11",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"14":
-                                 {"name":"prog_x_pos_12",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-						    "15":
-                                 {"name":"prog_x_pos_13",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"16":
-                                 {"name":"prog_x_pos_14",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                 "comment":"No Comment"
-                                  },
-							"17":
-                                 {"name":"prog_x_pos_15",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"18":
-                                 {"name":"prog_x_pos_16",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-						    "19":
-                                 {"name":"prog_x_pos_17",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"20":
-                                 {"name":"prog_x_pos_18",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"21":
-                                 {"name":"prog_x_pos_19",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"22":
-                                 {"name":"prog_x_pos_20",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"23":
-                                 {"name":"prog_x_pos_21",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"24":
-                                 {"name":"prog_x_pos_22",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"25":
-                                 {"name":"prog_x_pos_23",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"26":
-                                 {"name":"prog_x_pos_24",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"27":
-                                 {"name":"prog_x_pos_25",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"28":
-                                 {"name":"prog_x_pos_26",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"29":
-                                 {"name":"prog_x_pos_27",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"30":
-                                 {"name":"prog_x_pos_28",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"31":
-                                 {"name":"prog_x_pos_29",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"32":
-                                 {"name":"prog_x_pos_30",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"33":
-                                 {"name":"prog_x_pos_31",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"34":
-                                 {"name":"prog_x_pos_32",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"35":
-                                 {"name":"prog_x_pos_33",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"36":
-                                 {"name":"prog_x_pos_34",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"37":
-                                 {"name":"prog_x_pos_35",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"38":
-                                 {"name":"prog_x_pos_36",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                 "comment":"No Comment"
-                                  },
-							"39":
-                                 {"name":"prog_x_pos_37",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"40":
-                                 {"name":"prog_x_pos_38",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"41":
-                                 {"name":"prog_x_pos_39",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-						    "42":
-                                 {"name":"prog_x_pos_40",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"43":
-                                 {"name":"prog_x_pos_41",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                 "comment":"No Comment"
-                                  },
-							"44":
-                                 {"name":"prog_x_pos_42",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"45":
-                                 {"name":"prog_x_pos_43",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-						    "46":
-                                 {"name":"prog_x_pos_44",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"47":
-                                 {"name":"prog_x_pos_45",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"48":
-                                 {"name":"prog_x_pos_46",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"49":
-                                 {"name":"prog_x_pos_47",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"50":
-                                 {"name":"prog_x_pos_48",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"51":
-                                 {"name":"prog_x_pos_49",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"52":
-                                 {"name":"prog_x_pos_50",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"53":
-                                 {"name":"prog_y_pos_1",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"54":
-                                 {"name":"prog_y_pos_2",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"55":
-                                 {"name":"prog_y_pos_3",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"56":
-                                 {"name":"prog_y_pos_4",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"57":
-                                 {"name":"prog_y_pos_5",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"58":
-                                 {"name":"prog_y_pos_6",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"59":
-                                 {"name":"prog_y_pos_7",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"60":
-                                 {"name":"prog_y_pos_8",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"61":
-                                 {"name":"prog_y_pos_9",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"62":
-                                 {"name":"prog_y_pos_10",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"63":
-                                 {"name":"prog_y_pos_11",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"64":
-                                 {"name":"prog_y_pos_12",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                 "comment":"No Comment"
-                                  },
-							"65":
-                                 {"name":"prog_y_pos_13",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"66":
-                                 {"name":"prog_y_pos_14",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"67":
-                                 {"name":"prog_y_pos_15",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-						    "68":
-                                 {"name":"prog_y_pos_16",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"69":
-                                 {"name":"prog_y_pos_17",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                 "comment":"No Comment"
-                                  },
-							"70":
-                                 {"name":"prog_y_pos_18",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"71":
-                                 {"name":"prog_y_pos_19",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-						    "72":
-                                 {"name":"prog_y_pos_20",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"73":
-                                 {"name":"prog_y_pos_21",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"74":
-                                 {"name":"prog_y_pos_22",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"75":
-                                 {"name":"prog_y_pos_23",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"76":
-                                 {"name":"prog_y_pos_24",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"77":
-                                 {"name":"prog_y_pos_25",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"78":
-                                 {"name":"prog_y_pos_26",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"79":
-                                 {"name":"prog_y_pos_27",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"80":
-                                 {"name":"prog_y_pos_28",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"81":
-                                 {"name":"prog_y_pos_29",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"82":
-                                 {"name":"prog_y_pos_30",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"83":
-                                 {"name":"prog_y_pos_31",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"84":
-                                 {"name":"prog_y_pos_32",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"85":
-                                 {"name":"prog_y_pos_33",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"86":
-                                 {"name":"prog_y_pos_34",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"87":
-                                 {"name":"prog_y_pos_35",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                 "comment":"No Comment"
-                                  },
-							"88":
-                                 {"name":"prog_y_pos_36",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"89":
-                                 {"name":"prog_y_pos_37",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"90":
-                                 {"name":"prog_y_pos_38",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-						    "91":
-                                 {"name":"prog_y_pos_39",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"92":
-                                 {"name":"prog_y_pos_40",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                 "comment":"No Comment"
-                                  },
-							"93":
-                                 {"name":"prog_y_pos_41",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"94":
-                                 {"name":"prog_y_pos_42",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-						    "95":
-                                 {"name":"prog_y_pos_43",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"96":
-                                 {"name":"prog_y_pos_44",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"97":
-                                 {"name":"prog_y_pos_45",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"98":
-                                 {"name":"prog_y_pos_46",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"99":
-                                 {"name":"prog_y_pos_47",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"100":
-                                 {"name":"prog_y_pos_48",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"101":
-                                 {"name":"prog_y_pos_49",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"102":
-                                 {"name":"prog_y_pos_50",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"103":
-                                 {"name":"prog_z_pos_1",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"104":
-                                 {"name":"prog_z_pos_2",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"105":
-                                 {"name":"prog_z_pos_3",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"106":
-                                 {"name":"prog_z_pos_4",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"107":
-                                 {"name":"prog_z_pos_5",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"108":
-                                 {"name":"prog_z_pos_6",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"109":
-                                 {"name":"prog_z_pos_7",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"110":
-                                 {"name":"prog_z_pos_8",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"111":
-                                 {"name":"prog_z_pos_9",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"112":
-                                 {"name":"prog_z_pos_10",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"113":
-                                 {"name":"prog_z_pos_11",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"114":
-                                 {"name":"prog_z_pos_12",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                 "comment":"No Comment"
-                                  },
-							"115":
-                                 {"name":"prog_z_pos_13",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"116":
-                                 {"name":"prog_z_pos_14",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"117":
-                                 {"name":"prog_z_pos_15",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-						    "118":
-                                 {"name":"prog_z_pos_16",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"119":
-                                 {"name":"prog_z_pos_17",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                 "comment":"No Comment"
-                                  },
-							"120":
-                                 {"name":"prog_z_pos_18",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"121":
-                                 {"name":"prog_z_pos_19",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-						    "122":
-                                 {"name":"prog_z_pos_20",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"123":
-                                 {"name":"prog_z_pos_21",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"124":
-                                 {"name":"prog_z_pos_22",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"125":
-                                 {"name":"prog_z_pos_23",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"126":
-                                 {"name":"prog_z_pos_24",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"127":
-                                 {"name":"prog_z_pos_25",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"128":
-                                 {"name":"prog_z_pos_26",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"129":
-                                 {"name":"prog_z_pos_27",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"130":
-                                 {"name":"prog_z_pos_28",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"131":
-                                 {"name":"prog_z_pos_29",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"132":
-                                 {"name":"prog_z_pos_30",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"133":
-                                 {"name":"prog_z_pos_31",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"134":
-                                 {"name":"prog_z_pos_32",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"135":
-                                 {"name":"prog_z_pos_33",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"136":
-                                 {"name":"prog_z_pos_34",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"137":
-                                 {"name":"prog_z_pos_35",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"138":
-                                 {"name":"prog_z_pos_36",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"139":
-                                 {"name":"prog_z_pos_37",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"140":
-                                 {"name":"prog_z_pos_38",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                 "comment":"No Comment"
-                                  },
-							"141":
-                                 {"name":"prog_z_pos_39",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"142":
-                                 {"name":"prog_z_pos_40",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"143":
-                                 {"name":"prog_z_pos_41",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-						    "144":
-                                 {"name":"prog_z_pos_42",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"145":
-                                 {"name":"prog_z_pos_43",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                 "comment":"No Comment"
-                                  },
-							"146":
-                                 {"name":"prog_z_pos_44",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"147":
-                                 {"name":"prog_z_pos_45",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-						    "148":
-                                 {"name":"prog_z_pos_46",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"149":
-                                 {"name":"prog_z_pos_47",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"150":
-                                 {"name":"prog_z_pos_48",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"151":
-                                 {"name":"prog_z_pos_49",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"152":
-                                 {"name":"prog_z_pos_50",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                 "comment":"No Comment"
-                                  },
-							"153":
-                                 {"name":"coord_index",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"50 coord index"
-                                  },
-							"154":
-                                 {"name":"field_134",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"155":
-                                 {"name":"tail_size_",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-						    "156":
-                                 {"name":"status",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"157":
-                                 {"name":"num_aiming_vehicles",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                 "comment":"No Comment"
-                                  },
-							"158":
-                                 {"name":"dist_3d",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"159":
-                                 {"name":"x_y_vs_z1_x2",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-						    "160":
-                                 {"name":"x_y_vs_z2_x2",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"No Comment"
-                                  },
-							"161":
-                                 {"name":"z_shift_1",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"No Comment"
-                                  },
-							"162":
-                                 {"name":"z_direct",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"No Comment"
-                                  },
-							"163":
-                                 {"name":"z_shift_2",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"164":
-                                 {"name":"direct_3d",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"165":
-                                 {"name":"distance",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-						    "166":
-                                 {"name":"anglex2",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"167":
-                                 {"name":"distx2",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                 "comment":"No Comment"
-                                  },
-							"168":
-                                 {"name":"r_l_direct",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"No Comment"
-                                  },
-							"169":
-                                 {"name":"up_down",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-						    "170":
-                                 {"name":"direct_x",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"No Comment"
-                                  },
-							"171":
-                                 {"name":"direct_y",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"True",
-                                  "comment":"No Comment"
-                                  },
-							"172":
-                                 {"name":"lifetime",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"173":
-                                 {"name":"veh_owner_struc",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"174":
-                                 {"name":"field_15C",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                 "comment":"No Comment"
-                                  }
-                            }									  
-           },
-       "91":{
                     "name": "sqreen_struct",
-                    "struc_count": 300,
+                    "struc_count": 250,
                     "type": "struc",
 					"sign":"False",
 					"enum":"False",
 					"enum_type":"False",
 					"comment":"No Comment",
-					"struc_member":"8",
+					"struc_member":"4",
 					"struc":{
 							"0":
-                                 {"name":"used_flag",
+                                 {"name":"x1",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":4,
                                   "elements":0,
                                   "type":"num",
-                                  "sign":"False",
+                                  "sign":"True",
                                   "comment":"No Comment"
                                   },
 							"1":
-                                 {"name":"size_x",
+                                 {"name":"x2",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":4,
                                   "elements":0,
                                   "type":"num",
-                                  "sign":"False",
+                                  "sign":"True",
                                   "comment":"No Comment"
                                   },
 							"2":
-                                 {"name":"size_y",
+                                 {"name":"y1",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":4,
                                   "elements":0,
                                   "type":"num",
-                                  "sign":"False",
+                                  "sign":"True",
                                   "comment":"No Comment"
                                   },
 							"3":
-                                 {"name":"size_z",
+                                 {"name":"y2",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":4,
                                   "elements":0,
                                   "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"4":
-                                 {"name":"delta_x_down",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"5":
-                                 {"name":"delta_x_up",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"6":
-                                 {"name":"delta_y_down",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"No Comment"
-                                  },
-							"7":
-                                 {"name":"delta_y_up",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
+                                  "sign":"True",
                                   "comment":"No Comment"
                                   }
-								  
 							}  
            },
+
+       "91":{
+                                  "name": "grounmap_dat",
+					              "size": 22016,
+                                  "type": "simple",
+					              "enum":"False",
+					              "sign":"seek",
+					              "comment":"map"
+           },
        "92":{
-                    "name": "struc_ptg",
-                    "struc_count": 150,
-                    "type": "struc",
-					"sign":"False",
-					"enum":"False",
-					"enum_type":"False",
-					"comment":"No Comment",
-					"struc_member":"5",
-					"struc":{
-                             "0":
-                                 {"name":"pikch_num",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-						    "1":
-                                 {"name":"x_pos_3d",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"2":
-                                 {"name":"y_pos_3d",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"3":
-                                 {"name":"z_pos_3d",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  },
-							"4":
-                                 {"name":"speed",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-                                  } 
-						    }
+                                  "name": "leftmap_dat",
+					              "size": 22016,
+                                  "type": "simple",
+					              "enum":"False",
+					              "sign":"seek",
+					              "comment":"map"
            },
        "93":{
-                    "name": "veh_struc",
-                    "struc_count": 80,
+                                  "name": "rightmap_dat",
+					              "size": 22016,
+                                  "type": "simple",
+					              "enum":"False",
+					              "sign":"seek",
+					              "comment":"map"
+           },
+       "94":{
+                                  "name": "featmap_dat",
+					              "size": 22016,
+                                  "type": "simple",
+					              "enum":"False",
+					              "sign":"seek",
+					              "comment":"map"
+           },
+
+       "95":{
+                    "name": "struc_agent",
+                    "struc_count": 60,
                     "type": "struc",
 					"sign":"False",
 					"enum":"True",
@@ -3461,7 +1814,7 @@
 					"struc_member":"345",
 					"struc":{
                              "0":
-                                 {"name":"veh_count",
+                                 {"name":"image",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -3470,8 +1823,8 @@
                                   "comment":"none"
                                   },
 							"1":
-                                 {"name":"movement_type",
-                                  "enum":"veh_movement_type",
+                                 {"name":"image_2",
+                                  "enum":"False",
                                   "size":2,
                                   "elements":0,
                                   "type":"num",
@@ -3479,8 +1832,8 @@
                                   "comment":"none"
                                   },
 							"2":
-                                 {"name":"craft_type",
-                                  "enum":"craft",
+                                 {"name":"ID",
+                                  "enum":"False",
                                   "size":2,
                                   "elements":0,
                                   "type":"num",
@@ -3490,15 +1843,16 @@
 							"3":
                                  {"name":"name",
                                   "enum":"False",
-                                  "size":42,
+                                  "size":26,
                                   "elements":0,
                                   "type":"False",
                                   "sign":"string",
                                   "comment":"none"
                                   },
 							"4":
-                                 {"name":"current_x_pos",
-                                  "enum":"False",
+                                 {"name":"side",
+                                  "enum":"Organizations",
+								  "enum_num":29,
                                   "size":2,
                                   "elements":0,
                                   "type":"num",
@@ -3506,8 +1860,9 @@
                                   "comment":"none"
                                   },
 							"5":
-                                 {"name":"current_y_pos",
-                                  "enum":"False",
+                                 {"name":"unit_type",
+                                  "enum":"unit_image",
+								  "enum_num":15,
                                   "size":2,
                                   "elements":0,
                                   "type":"num",
@@ -3515,8 +1870,9 @@
                                   "comment":"none"
                                   },
 							"6":
-                                 {"name":"current_altitude",
-                                  "enum":"False",
+                                 {"name":"AI_control",
+                                  "enum":"AI_control",
+								  "enum_num":3,
                                   "size":2,
                                   "elements":0,
                                   "type":"num",
@@ -3524,7 +1880,7 @@
                                   "comment":"none"
                                   },
 							"7":
-                                 {"name":"current_frame1",
+                                 {"name":"squad",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -3533,7 +1889,7 @@
                                   "comment":"none"
                                   },
 							"8":
-                                 {"name":"current_frame2",
+                                 {"name":"anim_offset",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -3542,61 +1898,62 @@
                                   "comment":"none"
                                   },
 							"9":
-                                 {"name":"current_frame3",
+                                 {"name":"field_2A",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"10":
-                                 {"name":"current_frame4",
+                                 {"name":"field_2B",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"11":
-                                 {"name":"current_frame5",
+                                 {"name":"field_2C",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"12":
-                                 {"name":"size_x",
+                                 {"name":"field_2D",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"13":
-                                 {"name":"size_y",
+                                 {"name":"field_2E",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"14":
-                                 {"name":"size_z",
-                                  "enum":"False",
-                                  "size":2,
+                                 {"name":"rank",
+                                  "enum":"rank",
+								  "enum_num":7,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"15":
-                                 {"name":"image_pos1",
+                                 {"name":"field_30",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -3605,25 +1962,25 @@
                                   "comment":"none"
                                   },
 							"16":
-                                 {"name":"image_pos2",
+                                 {"name":"r_hend_weapon",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
-                                  "comment":"none"
+                                  "comment":"weapon in object_dat"
                                   },
 							"17":
-                                 {"name":"image_pos3",
+                                 {"name":"l_hand_weapon",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
-                                  "comment":"none"
+                                  "comment":"weapon in object_dat"
                                   },
 						    "18":
-                                 {"name":"image_pos4",
+                                 {"name":"total_encumberance",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -3632,7 +1989,7 @@
                                   "comment":"none"
                                   },
 							"19":
-                                 {"name":"destantion_x_pos",
+                                 {"name":"weapon_weight",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -3641,7 +1998,7 @@
                                   "comment":"none"
                                   },
 							"20":
-                                 {"name":"destantion_y_pos",
+                                 {"name":"days_service",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -3650,7 +2007,7 @@
                                   "comment":"none"
                                   },
 							"21":
-                                 {"name":"distantion_altitude",
+                                 {"name":"kills",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -3659,7 +2016,7 @@
                                   "comment":"none"
                                   },
 						    "22":
-                                 {"name":"altitude(setting)",
+                                 {"name":"missions",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -3668,7 +2025,7 @@
                                   "comment":"none"
                                   },
 							"23":
-                                 {"name":"unknown_x_pos1",
+                                 {"name":"score",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -3677,43 +2034,43 @@
                                   "comment":"none"
                                   },
 							"24":
-                                 {"name":"unknown_y_pos1",
+                                 {"name":"field_42",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"25":
-                                 {"name":"unknown_altitude1",
+                                 {"name":"field_43",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"26":
-                                 {"name":"current_x_pos_and_size_x",
+                                 {"name":"score_for_kill",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"27":
-                                 {"name":"current_y_pos_and_size_y",
+                                 {"name":"leg_type",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"28":
-                                 {"name":"current_z_pos_and_size_z",
+                                 {"name":"head_armor",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -3722,7 +2079,7 @@
                                   "comment":"none"
                                   },
 						    "29":
-                                 {"name":"veh_path_ind",
+                                 {"name":"body_armor",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -3731,7 +2088,7 @@
                                   "comment":"none"
                                   },
 							"30":
-                                 {"name":"unknown_29",
+                                 {"name":"r_arm_armor",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -3740,7 +2097,7 @@
                                   "comment":"none"
                                   },
 							"31":
-                                 {"name":"road_direct_ind",
+                                 {"name":"l_arm_armor",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -3749,7 +2106,7 @@
                                   "comment":"none"
                                   },
 							"32":
-                                 {"name":"activ_waypoint",
+                                 {"name":"leg_armor",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -3758,7 +2115,7 @@
                                   "comment":"none"
                                   },
 							"33":
-                                 {"name":"unknown_32",
+                                 {"name":"uncnown_armor",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -3767,88 +2124,88 @@
                                   "comment":"none"
                                   },
 							"34":
-                                 {"name":"vert_direction",
+                                 {"name":"leg_wound",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"35":
-                                 {"name":"speed_x2_div3",
+                                 {"name":"tors_wound",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 						    "36":
-                                 {"name":"hovering_time",
+                                 {"name":"l_hend_wound",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"37":
-                                 {"name":"unknown_36",
+                                 {"name":"r_hend_wound",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"38":
-                                 {"name":"unknown_37",
+                                 {"name":"head_wound",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 						    "39":
-                                 {"name":"unknown_38",
+                                 {"name":"rear_wound",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"40":
-                                 {"name":"unknown_39",
+                                 {"name":"max_speed",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 						    "41":
-                                 {"name":"unknown_40",
+                                 {"name":"max_TU",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 						    "42":
-                                 {"name":"unknown_41",
+                                 {"name":"curr_remain_TUs",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"43":
-                                 {"name":"waypoint_1_x_pos",
+                                 {"name":"Reserve_TU_shot",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -3857,7 +2214,7 @@
                                   "comment":"none"
                                   },
 						    "44":
-                                 {"name":"waypoint_1_y_pos",
+                                 {"name":"Reserve_TU_kneel",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -3866,7 +2223,7 @@
                                   "comment":"none"
                                   },
 							"45":
-                                 {"name":"waypoint_1_z_pos",
+                                 {"name":"cloak_dist",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -3875,7 +2232,7 @@
                                   "comment":"none"
                                   },
 							"46":
-                                 {"name":"waypoint_1_num",
+                                 {"name":"max_health",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -3884,7 +2241,7 @@
                                   "comment":"none"
                                   },
 							"47":
-                                 {"name":"waypoint_2_x_pos",
+                                 {"name":"current_health",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -3893,169 +2250,169 @@
                                   "comment":"none"
                                   },
 						    "48":
-                                 {"name":"waypoint_2_y_pos",
+                                 {"name":"morale_1",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"49":
-                                 {"name":"waypoint_2_z_pos",
+                                 {"name":"morale_2",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"50":
-                                 {"name":"waypoint_2_num",
+                                 {"name":"stamina_1",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   }, 
 							"51":
-                                 {"name":"waypoint_3_x_pos",
+                                 {"name":"stamina_2",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 						    "52":
-                                 {"name":"waypoint_3_y_pos",
+                                 {"name":"field_6A",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"53":
-                                 {"name":"waypoint_3_z_pos",
+                                 {"name":"field_6B",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"54":
-                                 {"name":"waypoint_3_num",
+                                 {"name":"field_6C",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"55":
-                                 {"name":"waypoint_4_x_pos",
+                                 {"name":"field_6D",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 						    "56":
-                                 {"name":"waypoint_4_y_pos",
+                                 {"name":"field_6E",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"57":
-                                 {"name":"waypoint_4_z_pos",
+                                 {"name":"field_6F",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"58":
-                                 {"name":"waypoint_4_num",
+                                 {"name":"strenght_max",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"59":
-                                 {"name":"waypoint_5_x_pos",
+                                 {"name":"strenght_curr",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 						    "60":
-                                 {"name":"waypoint_5_y_pos",
+                                 {"name":"curr_morale",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"61":
-                                 {"name":"waypoint_5_z_pos",
+                                 {"name":"braverly",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"62":
-                                 {"name":"waypoint_5_num",
+                                 {"name":"psi_energy_max",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"63":
-                                 {"name":"waypoint_6_x_pos",
+                                 {"name":"psi_energy_curr",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 						    "64":
-                                 {"name":"waypoint_6_y_pos",
+                                 {"name":"field_76",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"65":
-                                 {"name":"waypoint_6_z_pos",
+                                 {"name":"field_77",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"66":
-                                 {"name":"waypoint_6_num",
+                                 {"name":"field_78",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -4064,7 +2421,7 @@
                                   "comment":"none"
                                   },
 							"67":
-                                 {"name":"waypoint_7_x_pos",
+                                 {"name":"field_79",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -4073,61 +2430,62 @@
                                   "comment":"none"
                                   },
 						    "68":
-                                 {"name":"waypoint_7_y_pos",
+                                 {"name":"field_7A",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"69":
-                                 {"name":"waypoint_7_z_pos",
+                                 {"name":"field_7B",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"70":
-                                 {"name":"waypoint_7_num",
-                                  "enum":"False",
-                                  "size":2,
+                                 {"name":"unit_status",
+                                  "enum":"status_unit",
+								  "enum_num":5,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"71":
-                                 {"name":"waypoint_8_x_pos",
+                                 {"name":"agressive_mode_2",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 						    "72":
-                                 {"name":"waypoint_8_y_pos",
+                                 {"name":"fire_mode_2",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"73":
-                                 {"name":"waypoint_8_z_pos",
+                                 {"name":"field_7F",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"74":
-                                 {"name":"waypoint_8_num",
+                                 {"name":"stun_level",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -4136,25 +2494,25 @@
                                   "comment":"none"
                                   },
 							"75":
-                                 {"name":"unknown_74",
+                                 {"name":"fire_damage",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"76":
-                                 {"name":"unknown_75",
+                                 {"name":"field_83",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"77":
-                                 {"name":"unknown_76",
+                                 {"name":"under_fire_flag",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -4163,7 +2521,7 @@
                                   "comment":"none"
                                   },
 							"78":
-                                 {"name":"unknown_77",
+                                 {"name":"field_86",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -4172,79 +2530,79 @@
                                   "comment":"none"
                                   },
 							"79":
-                                 {"name":"unknown_78",
+                                 {"name":"psi_attack_curr",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"80":
-                                 {"name":"unknown_79",
+                                 {"name":"psi_defese_curr",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"81":
-                                 {"name":"unknown_80",
+                                 {"name":"psi_defese_max",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"82":
-                                 {"name":"unknown_81",
+                                 {"name":"field_8B",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"83":
-                                 {"name":"active_waypoint",
+                                 {"name":"accuracy",
                                   "enum":"False",
-                                  "size":1,
+                                  "size":2,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"84":
-                                 {"name":"target_type",
+                                 {"name":"current_accuracy",
                                   "enum":"veh_target_type",
-                                  "size":1,
+                                  "size":2,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"85":
-                                 {"name":"target_x_pos",
+                                 {"name":"field_90",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"86":
-                                 {"name":"target_y_pos",
+                                 {"name":"field_91",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"87":
-                                 {"name":"smog_flag",
+                                 {"name":"field_92",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -4253,7 +2611,7 @@
                                   "comment":"none"
                                   },
 							"88":
-                                 {"name":"active_waypoints",
+                                 {"name":"field_93",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -4262,187 +2620,188 @@
                                   "comment":"none"
                                   },
 							"89":
-                                 {"name":"waypoint1_x_pos",
+                                 {"name":"field_94",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"90":
-                                 {"name":"waypoint1_y_pos",
+                                 {"name":"field_95",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"91":
-                                 {"name":"waypoint2_x_pos",
-                                  "enum":"False",
-                                  "size":2,
+                                 {"name":"gender",
+                                  "enum":"gender",
+								  "enum_num":3,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"92":
-                                 {"name":"waypoint2_y_pos",
+                                 {"name":"face_image",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"93":
-                                 {"name":"waypoint3_x_pos",
+                                 {"name":"field_98",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"94":
-                                 {"name":"waypoint3_y_pos",
+                                 {"name":"field_99",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"95":
-                                 {"name":"waypoint4_x_pos",
+                                 {"name":"photo_image",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"96":
-                                 {"name":"waypoint4_y_pos",
+                                 {"name":"field_9B",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"97":
-                                 {"name":"waypoint5_x_pos",
+                                 {"name":"field_9C",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"98":
-                                 {"name":"waypoint5_y_pos",
+                                 {"name":"field_9D",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"99":
-                                 {"name":"unknown_96",
+                                 {"name":"ufield_9E",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"100":
-                                 {"name":"unknown_x_pos3",
+                                 {"name":"field_9F",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"101":
-                                 {"name":"unknown_y_pos3",
+                                 {"name":"field_A0",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"102":
-                                 {"name":"unknown_altitude3",
+                                 {"name":"field_A1",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"103":
-                                 {"name":"unknown_100",
+                                 {"name":"equip_set_1",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 						    "104":
-                                 {"name":"anim_speed",
+                                 {"name":"equip_set_2",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"105":
-                                 {"name":"anim_frame",
+                                 {"name":"equip_set_3",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 						    "106":
-                                 {"name":"unknown_103",
+                                 {"name":"equip_set_4",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"107":
-                                 {"name":"unknown_104",
+                                 {"name":"equip_set_5",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"108":
-                                 {"name":"Acceleration",
+                                 {"name":"field_A7",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"109":
-                                 {"name":"Acceleration_2",
+                                 {"name":"tracker_state",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -4451,16 +2810,16 @@
                                   "comment":"none"
                                   },
 							"110":
-                                 {"name":"top_speed",
+                                 {"name":"x_pos",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
-                                  "comment":"if total weight < 350, top speed+4"
+                                  "comment":"none"
                                   },
 						    "111":
-                                 {"name":"current_speed",
+                                 {"name":"y_pos",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -4469,7 +2828,7 @@
                                   "comment":"none"
                                   },
 							"112":
-                                 {"name":"unknown_109",
+                                 {"name":"z_pos",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -4478,7 +2837,7 @@
                                   "comment":"none"
                                   },
 						    "113":
-                                 {"name":"field_106",
+                                 {"name":"field_B0",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -4487,7 +2846,7 @@
                                   "comment":"none"
                                   },
 							"114":
-                                 {"name":"field_107",
+                                 {"name":"field_B1",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -4496,79 +2855,79 @@
                                   "comment":"none"
                                   },
 							"115":
-                                 {"name":"shadow_struc_offset",
+                                 {"name":"field_B2",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"116":
-                                 {"name":"veh_assign",
+                                 {"name":"field_B3",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"117":
-                                 {"name":"unknown_114",
+                                 {"name":"field_B4",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"118":
-                                 {"name":"unknown_115",
+                                 {"name":"field_B5",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"119":
-                                 {"name":"lof_height",
+                                 {"name":"field_B6",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"120":
-                                 {"name":"lof_offset",
+                                 {"name":"field_B7",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"121":
-                                 {"name":"x_pos_3d",
+                                 {"name":"field_B8",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"122":
-                                 {"name":"y_pos_3d",
+                                 {"name":"field_B9",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"123":
-                                 {"name":"z_pos_3d",
+                                 {"name":"x_pos_3D",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -4577,8 +2936,8 @@
                                   "comment":"none"
                                   },
 							"124":
-                                 {"name":"weapon_slot_1",
-                                  "enum":"craft_equip",
+                                 {"name":"y_pos_3D",
+                                  "enum":"False",
                                   "size":2,
                                   "elements":0,
                                   "type":"num",
@@ -4586,8 +2945,8 @@
                                   "comment":"none"
                                   },
 							"125":
-                                 {"name":"weapon_slot_2",
-                                  "enum":"craft_equip",
+                                 {"name":"z_pos_3D",
+                                  "enum":"False",
                                   "size":2,
                                   "elements":0,
                                   "type":"num",
@@ -4595,8 +2954,8 @@
                                   "comment":"none"
                                   },
 							"126":
-                                 {"name":"weapon_slot_3",
-                                  "enum":"craft_equip",
+                                 {"name":"x_size",
+                                  "enum":"False",
                                   "size":2,
                                   "elements":0,
                                   "type":"num",
@@ -4604,7 +2963,7 @@
                                   "comment":"none"
                                   },
 							"127":
-                                 {"name":"fire_rate",
+                                 {"name":"y_size",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -4613,7 +2972,7 @@
                                   "comment":"none"
                                   },
 							"128":
-                                 {"name":"unknown_124",
+                                 {"name":"z_size",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -4622,79 +2981,79 @@
                                   "comment":"none"
                                   },
 							"129":
-                                 {"name":"unknown_125",
+                                 {"name":"field_C6",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"130":
-                                 {"name":"enable_weapon1",
-                                  "enum":"veh_enable_weapon",
-                                  "size":2,
+                                 {"name":"field_C7",
+                                  "enum":"False",
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"131":
-                                 {"name":"enable_weapon2",
-                                  "enum":"veh_enable_weapon",
-                                  "size":2,
+                                 {"name":"field_C8",
+                                  "enum":"False",
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"132":
-                                 {"name":"enable_weapon3",
-                                  "enum":"veh_enable_weapon",
-                                  "size":2,
+                                 {"name":"field_C9",
+                                  "enum":"False",
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"133":
-                                 {"name":"owner",
-                                  "enum":"Organizations",
-                                  "size":2,
+                                 {"name":"field_CA",
+                                  "enum":"False",
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 							"134":
-                                 {"name":"constitution",
+                                 {"name":"field_CB",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 						   "135":
-                                 {"name":"unknown_131",
+                                 {"name":"field_CC",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 					        "136":
-                                 {"name":"max_sheild_points",
+                                 {"name":"field_CD",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 						   "137":
-                                 {"name":"unknown_133",
+                                 {"name":"lof_height",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -4703,70 +3062,70 @@
                                   "comment":"none"
                                   },
 						   "138":
-                                 {"name":"Alien Probe_latency",
+                                 {"name":"size_x_1",
                                   "enum":"False",
-                                  "size":1,
+                                  "size":2,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 						   "139":
-                                 {"name":"Alien Scout_latency",
+                                 {"name":"x_pos_move_target",
                                   "enum":"False",
-                                  "size":1,
+                                  "size":2,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 						   "140":
-                                 {"name":"Alien Transporter_latency",
+                                 {"name":"y_pos_move_target",
                                   "enum":"False",
-                                  "size":1,
+                                  "size":2,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 						   "141":
-                                 {"name":"Alien FAS_latency",
+                                 {"name":"z_pos_move_target",
                                   "enum":"False",
-                                  "size":1,
+                                  "size":2,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 						   "142":
-                                 {"name":"Alien Destroyer_latency",
+                                 {"name":"x_pos_1",
                                   "enum":"False",
-                                  "size":1,
+                                  "size":2,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 						   "143":
-                                 {"name":"Alien Assault Ship_latency",
+                                 {"name":"y_pos_1",
                                   "enum":"False",
-                                  "size":1,
+                                  "size":2,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 						   "144":
-                                 {"name":"Alien Bomber_latency",
+                                 {"name":"z_pos_1",
                                   "enum":"False",
-                                  "size":1,
+                                  "size":2,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 						   "145":
-                                 {"name":"Alien Escort_latency",
+                                 {"name":"field_DE",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -4775,7 +3134,7 @@
                                   "comment":"none"
                                   },
 						   "146":
-                                 {"name":"Alien Battleship_latency",
+                                 {"name":"field_DF",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -4784,34 +3143,34 @@
                                   "comment":"none"
                                   },
 						   "147":
-                                 {"name":"Alien Mothership_latency",
+                                 {"name":"x_pos_2",
                                   "enum":"False",
-                                  "size":1,
+                                  "size":2,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 						   "148":
-                                 {"name":"Police Hovercar_latency",
+                                 {"name":"y_pos_2",
                                   "enum":"False",
-                                  "size":1,
+                                  "size":2,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 						   "149":
-                                 {"name":"Airtaxi_latency",
+                                 {"name":"z_pos_2",
                                   "enum":"False",
-                                  "size":1,
+                                  "size":2,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
                                   },
 						   "150":
-                                 {"name":"Rescue Transport_latency",
+                                 {"name":"field_E3",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -4820,7 +3179,7 @@
                                   "comment":"none"
                                   },
 						   "151":
-                                 {"name":"Construction Vehicle_latency",
+                                 {"name":"field_E4",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -4829,7 +3188,7 @@
                                   "comment":"none"
                                   },
 						   "152":
-                                 {"name":"Airtrans_latency",
+                                 {"name":"field_E5",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -4838,7 +3197,7 @@
                                   "comment":"none"
                                   },
 						   "153":
-                                 {"name":"Space Liner_latency",
+                                 {"name":"field_E6",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -4847,7 +3206,7 @@
                                   "comment":"none"
                                   },
 						   "154":
-                                 {"name":"Phoenix Hovercar_latency",
+                                 {"name":"field_E7",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -4856,7 +3215,7 @@
                                   "comment":"none"
                                   },
 						   "155":
-                                 {"name":"Hoverbike_latency",
+                                 {"name":"field_E8",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -4865,7 +3224,7 @@
                                   "comment":"none"
 								  },
 						   "156":
-                                 {"name":"Valkyrie Interceptor_latency",
+                                 {"name":"field_E9",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -4874,7 +3233,7 @@
                                   "comment":"none"
 								  },
 						   "157":
-                                 {"name":"Hawk Air Warrior_latency",
+                                 {"name":"field_EA",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -4883,7 +3242,7 @@
                                   "comment":"none"
 								  },
 						   "158":
-                                 {"name":"Dimension Probe_latency",
+                                 {"name":"field_EB",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -4892,7 +3251,7 @@
                                   "comment":"none"
 								  },
 						   "159":
-                                 {"name":"Biotrans_latency",
+                                 {"name":"field_EC",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -4901,7 +3260,7 @@
                                   "comment":"none"
 								  },
 						   "160":
-                                 {"name":"Explorer_latency",
+                                 {"name":"field_ED",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -4910,7 +3269,7 @@
                                   "comment":"none"
 								  },
 						   "161":
-                                 {"name":"Retaliator_latency",
+                                 {"name":"item_size_x",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -4919,7 +3278,7 @@
                                   "comment":"none"
 								  },
 						   "162":
-                                 {"name":"Retaliator_latency",
+                                 {"name":"item_size_y",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -4928,7 +3287,7 @@
                                   "comment":"none"
 								  },
 						   "163":
-                                 {"name":"Annihilator_latency",
+                                 {"name":"item_size_z",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -4937,7 +3296,7 @@
                                   "comment":"none"
 								  },
 						   "164":
-                                 {"name":"Autotaxi_latency",
+                                 {"name":"field_F1",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -4946,61 +3305,61 @@
                                   "comment":"none"
 								  },
 						   "165":
-                                 {"name":"Autotrans_latency",
+                                 {"name":"matrix_action_9_mode",
                                   "enum":"False",
-                                  "size":1,
+                                  "size":2,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
 								  },
 						   "166":
-                                 {"name":"Police Car_latency",
+                                 {"name":"field_F4",
                                   "enum":"False",
-                                  "size":1,
+                                  "size":2,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
 								  },
 						   "167":
-                                 {"name":"Civilian Car_latency",
+                                 {"name":"field_F6",
                                   "enum":"False",
-                                  "size":1,
+                                  "size":2,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
 								  },
 						   "168":
-                                 {"name":"Stormdog_latency",
+                                 {"name":"move_mode",
                                   "enum":"False",
-                                  "size":1,
+                                  "size":2,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
 								  },
 						   "169":
-                                 {"name":"Wolfhound APC_latency",
+                                 {"name":"field_FA",
                                   "enum":"False",
-                                  "size":1,
+                                  "size":2,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
 								  },
 						   "170":
-                                 {"name":"Blazer Turbo Bike_latency",
+                                 {"name":"field_FC",
                                   "enum":"False",
-                                  "size":1,
+                                  "size":2,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
 								  },
 						   "171":
-                                 {"name":"Griffon AFV_latency",
+                                 {"name":"max_speed_2_mod",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -5009,16 +3368,16 @@
                                   "comment":"none"
 								  },
 						   "172":
-                                 {"name":"target_veh",
+                                 {"name":"field_FF",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
 								  },
 						   "173":
-                                 {"name":"target_building",
+                                 {"name":"curr_max_TU",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -5027,8 +3386,8 @@
                                   "comment":"none"
 								  },
 						   "174":
-                                 {"name":"veh_mission",
-                                  "enum":"vehicle_mission",
+                                 {"name":"current_frame_speed_by_moving_mode",
+                                  "enum":"False",
                                   "size":2,
                                   "elements":0,
                                   "type":"num",
@@ -5036,52 +3395,52 @@
                                   "comment":"none"
 								  },
 						   "175":
-                                 {"name":"unknown_154",
+                                 {"name":"field_104",
                                   "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-								  },
-						   "176":
-                                 {"name":"unknown_155",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-								  },
-						   "177":
-                                 {"name":"unknown_156",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-								  },
-						   "178":
-                                 {"name":"unknown_157",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-								  },
-					        "179":
-                                 {"name":"rules_of_engagement(setting)",
-                                  "enum":"rules_of_engagement",
                                   "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
 								  },
+						   "176":
+                                 {"name":"field_105",
+                                  "enum":"False",
+                                  "size":1,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+								  },
+						   "177":
+                                 {"name":"field_106",
+                                  "enum":"False",
+                                  "size":1,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+								  },
+						   "178":
+                                 {"name":"field_107",
+                                  "enum":"False",
+                                  "size":1,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+								  },
+					        "179":
+                                 {"name":"lof_offset",
+                                  "enum":"False",
+                                  "size":2,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+								  },
 						   "180":
-                                 {"name":"unk",
+                                 {"name":"x_pos_3",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -5090,16 +3449,16 @@
                                   "comment":"none"
 								  },
 						   "181":
-                                 {"name":"hit_points_left_before_retreating",
+                                 {"name":"y_pos_3",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
 								  },
 						   "182":
-                                 {"name":"return_ufo_flag",
+                                 {"name":"z_pos_3",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -5108,7 +3467,7 @@
                                   "comment":"none"
 								  },
 						   "183":
-                                 {"name":"field_16B",
+                                 {"name":"field_10D",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -5117,25 +3476,7 @@
                                   "comment":"none"
 								  },
 						   "184":
-                                 {"name":"escorted_type",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-								  },
-						   "185":
-                                 {"name":"rnd_for_gen_return_coord",
-                                  "enum":"False",
-                                  "size":2,
-                                  "elements":0,
-                                  "type":"num",
-                                  "sign":"False",
-                                  "comment":"none"
-								  },
-						   "186":
-                                 {"name":"field_170",
+                                 {"name":"field_10E",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -5143,8 +3484,26 @@
                                   "sign":"False",
                                   "comment":"none"
 								  },
+						   "185":
+                                 {"name":"field_10F",
+                                  "enum":"False",
+                                  "size":1,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+								  },
+						   "186":
+                                 {"name":"field_110",
+                                  "enum":"False",
+                                  "size":2,
+                                  "elements":0,
+                                  "type":"num",
+                                  "sign":"False",
+                                  "comment":"none"
+								  },
 						   "187":
-                                 {"name":"field_171",
+                                 {"name":"field_111",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -5153,16 +3512,16 @@
                                   "comment":"none"
 								  },
 						   "188":
-                                 {"name":"unknown_164",
+                                 {"name":"field_112",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
 								  },
 							"189":
-                                 {"name":"current_demention",
+                                 {"name":"field_113",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -5171,7 +3530,7 @@
                                   "comment":"none"
 								  },
 							"190":
-                                 {"name":"field_175",
+                                 {"name":"field_114",
                                   "enum":"False",
                                   "size":1,
                                   "elements":0,
@@ -5180,97 +3539,97 @@
                                   "comment":"none"
 								  },
 							"191":
-                                 {"name":"weight",
+                                 {"name":"field_115",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
 								  },
 							"192":
-                                 {"name":"unknown_167",
+                                 {"name":"field_116",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
 								  },
 							"193":
-                                 {"name":"current_sheild_point",
+                                 {"name":"field_117",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
 								  },
 							"194":
-                                 {"name":"rear_armor",
+                                 {"name":"field_118",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
 								  },
 						    "195":
-                                 {"name":"top_armor",
+                                 {"name":"field_119",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
 								  },
 							"196":
-                                 {"name":"right_armor",
+                                 {"name":"field_11A",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
 								  },
 							"197":
-                                 {"name":"left_armor",
+                                 {"name":"field_11B",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
 								  },
 							"198":
-                                 {"name":"under_armor",
+                                 {"name":"field_11C",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
 								  },
 							"199":
-                                 {"name":"front_armor",
+                                 {"name":"field_11D",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
 								  },
 							"200":
-                                 {"name":"unknown_175",
+                                 {"name":"field_11E",
                                   "enum":"False",
-                                  "size":2,
+                                  "size":1,
                                   "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"none"
 								  },
 						   "201":
-                                 {"name":"accuracy",
+                                 {"name":"end",
                                   "enum":"False",
                                   "size":2,
                                   "elements":0,
@@ -6567,7 +4926,7 @@
 								  }
 						    }
            },
-       "94":{
+       "96":{
                     "name": "road_junction",
                     "struc_count": 512,
                     "type": "struc",
@@ -6723,7 +5082,7 @@
                                   }
                             }
               },
-       "93":{
+       "97":{
                     "name": "blding_struc",
                     "struc_count": 110,
                     "type": "struc",
@@ -7861,7 +6220,7 @@
                                   }
                         }
           },
-       "94":{
+       "98":{
                     "name": "base_struct",
                     "struc_count": 16,
                     "type": "struc",
@@ -11563,7 +9922,7 @@
                                   }
                             }
            },
-       "95":{
+       "100":{
                 "name": "facility_data",
                     "struc_count": 34,
                     "type": "struc",
@@ -11667,7 +10026,7 @@
                              }
            },
 
-        "95":{
+       "100":{
                     "name": "unit_select_struc",
                     "struc_count": 20,
                     "type": "struc",
@@ -13337,7 +11696,7 @@
                                    }
                             }
            },
-        "94":{
+       "107":{
                     "name": "ufo_objects",
                     "struc_count": 2,
                     "type": "struc",
@@ -14869,7 +13228,7 @@
                      }
 
            },
-        "95":{
+       "108":{
                     "name": "reserch",
                     "struc_count": 99,
                     "type": "struc",
@@ -14916,7 +13275,7 @@
                                    }
                      }
            },
-        "96":{
+       "200":{
                     "name": "manufacturing",
                     "struc_count": 100,
                     "type": "struc",
@@ -14970,7 +13329,7 @@
                                    }
                     }
            },
-        "97":{
+       "200":{
                     "name": "Help_counter_unused",
 					"size": 2,
                     "type": "simple",

@@ -8363,6 +8363,7 @@
 							"0":
                                  {"name":"bld_count",
                                   "enum":"building",
+                                  "enum_num":135,
                                   "size":2,
                                   "elements":0,
                                   "type":"num",
@@ -12657,7 +12658,8 @@
                                   "size":2,
                                   "elements":0,
                                   "type":"num",
-                                  "sign":"False",
+                                  "enum_num":151,
+                                  "sign":"True",
                                   "comment":"See agents inventory"
                                   },
                               "55":
@@ -13291,10 +13293,11 @@
                                   "comment":"No Comment"
                                   },
                               "125":
-                                 {"name":"field_B0",
+                                 {"name":"hired_flag",
+								 "enum":"hire_able",
+								 "enum_num":2,
                                   "enum":"False",
                                   "size":1,
-                                  "elements":0,
                                   "type":"num",
                                   "sign":"False",
                                   "comment":"No Comment"
@@ -17453,28 +17456,28 @@
                                   "sign":"False",
                                   "comment":"No Comment"
                                   },
-                               "1":
+                             "1":
                                  {"name":"item",
                                   "enum":"False",
                                   "size":2,
                                   "sign":"False",
                                   "comment":"No Comment"
                                   },
-                               "2":
+                             "2":
                                  {"name":"amount",
                                   "enum":"False",
                                   "size":2,
                                   "sign":"False",
                                   "comment":"No Comment"
                                   },
-                               "3":
+                             "3":
                                  {"name":"item_type",
                                   "enum":"cargo_item_type",
                                   "size":1,
                                   "sign":"False",
                                   "comment":"No Comment"
                                   },
-                               "4":
+                             "4":
                                  {"name":"field_7",
                                   "enum":"False",
                                   "size":1,
@@ -18334,826 +18337,15 @@
 					}
            },
         "84":{
-                    "name": "citymap_z0",
-                    "struc_count": 1000,
-                    "type": "struc",
-					"sign":"False",
+                    "name": "citymap",
+					"size": 200000,
+                    "type": "simple",
 					"enum":"False",
-					"enum_type":"False",
-					"comment":"No Comment",
-					"struc_member":"10",
-					"struc":{
-					         "0":
-                                  {"name":"tile0",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "1":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "2":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "3":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "4":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "5":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "6":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "7":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "8":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "9":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   }
-                            }
+					"sign":"seek",
+					"comment":"citymap_work"
            },
+
         "85":{
-                    "name": "citymap_z1",
-                    "struc_count": 1000,
-                    "type": "struc",
-					"sign":"False",
-					"enum":"False",
-					"enum_type":"False",
-					"comment":"No Comment",
-					"struc_member":"10",
-					"struc":{
-					         "0":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "1":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "2":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "3":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "4":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "5":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "6":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "7":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "8":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "9":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   }
-                            }
-           },
-        "86":{
-                    "name": "citymap_z2",
-                    "struc_count": 1000,
-                    "type": "struc",
-					"sign":"False",
-					"enum":"False",
-					"enum_type":"False",
-					"comment":"No Comment",
-					"struc_member":"10",
-					"struc":{
-					         "0":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "1":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "2":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "3":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "4":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "5":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "6":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "7":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "8":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "9":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   }
-                            }
-           },
-        "87":{
-                    "name": "citymap_z3",
-                    "struc_count": 1000,
-                    "type": "struc",
-					"sign":"False",
-					"enum":"False",
-					"enum_type":"False",
-					"comment":"No Comment",
-					"struc_member":"10",
-					"struc":{
-					         "0":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "1":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "2":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "3":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "4":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "5":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "6":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "7":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "8":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "9":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   }
-                            }
-           },
-        "88":{
-                    "name": "citymap_z4",
-                    "struc_count": 1000,
-                    "type": "struc",
-					"sign":"False",
-					"enum":"False",
-					"enum_type":"False",
-					"comment":"No Comment",
-					"struc_member":"10",
-					"struc":{
-					         "0":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "1":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "2":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "3":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "4":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "5":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "6":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "7":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "8":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "9":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   }
-                            }
-           },
-        "89":{
-                    "name": "citymap_z5",
-                    "struc_count": 1000,
-                    "type": "struc",
-					"sign":"False",
-					"enum":"False",
-					"enum_type":"False",
-					"comment":"No Comment",
-					"struc_member":"10",
-					"struc":{
-					         "0":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "1":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "2":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "3":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "4":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "5":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "6":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "7":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "8":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "9":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   }
-                            }
-           },
-        "90":{
-                    "name": "citymap_z6",
-                    "struc_count": 1000,
-                    "type": "struc",
-					"sign":"False",
-					"enum":"False",
-					"enum_type":"False",
-					"comment":"No Comment",
-					"struc_member":"10",
-					"struc":{
-					         "0":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "1":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "2":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "3":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "4":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "5":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "6":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "7":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "8":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "9":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   }
-                            }
-           },
-        "91":{
-                    "name": "citymap_z7",
-                    "struc_count": 1000,
-                    "type": "struc",
-					"sign":"False",
-					"enum":"False",
-					"enum_type":"False",
-					"comment":"No Comment",
-					"struc_member":"10",
-					"struc":{
-					         "0":
-                                  {"name":"tile0",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "1":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "2":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "3":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "4":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "5":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "6":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "7":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "8":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "9":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   }
-                            }
-           },
-        "92":{
-                    "name": "citymap_z8",
-                    "struc_count": 1000,
-                    "type": "struc",
-					"sign":"False",
-					"enum":"False",
-					"enum_type":"False",
-					"comment":"No Comment",
-					"struc_member":"10",
-					"struc":{
-					         "0":
-                                  {"name":"tile0",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "1":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "2":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "3":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "4":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "5":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "6":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "7":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "8":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "9":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   }
-                            }
-           },
-        "93":{
-                    "name": "citymap_z9",
-                    "struc_count": 1000,
-                    "type": "struc",
-					"sign":"False",
-					"enum":"False",
-					"enum_type":"False",
-					"comment":"No Comment",
-					"struc_member":"10",
-					"struc":{
-					         "0":
-                                  {"name":"tile0",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "1":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "2":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "3":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "4":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "5":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "6":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "7":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "8":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   },
-                               "9":
-                                  {"name":"tile",
-                                   "enum":"False",
-                                   "size":2,
-                                   "sign":"False",
-                                   "comment":"Not used"
-                                   }
-                            }
-           },
-        "94":{
                     "name": "ufo_objects",
                     "struc_count": 2,
                     "type": "struc",
@@ -20685,7 +19877,7 @@
                      }
 
            },
-        "95":{
+        "86":{
                     "name": "reserch",
                     "struc_count": 99,
                     "type": "struc",
@@ -20702,28 +19894,28 @@
                                    "sign":"False",
                                    "comment":"Not used"
                                    },
-                               "1":
+                             "1":
                                   {"name":"base",
                                    "enum":"False",
                                    "size":1,
                                    "sign":"False",
                                    "comment":"Not used"
                                    },
-                               "2":
+                             "2":
                                   {"name":"assigment",
                                    "enum":"False",
                                    "size":2,
                                    "sign":"False",
                                    "comment":"99 - for researched"
                                    },
-                               "3":
+                             "3":
                                   {"name":"skill_hours",
                                    "enum":"False",
                                    "size":4,
                                    "sign":"False",
                                    "comment":"Not used"
                                    },
-                               "4":
+                             "4":
                                   {"name":"researched",
                                    "enum":"False",
                                    "size":2,
@@ -20732,7 +19924,7 @@
                                    }
                      }
            },
-        "96":{
+        "87":{
                     "name": "manufacturing",
                     "struc_count": 100,
                     "type": "struc",
@@ -20786,7 +19978,7 @@
                                    }
                     }
            },
-        "97":{
+        "88":{
                     "name": "Help_counter_unused",
 					"size": 2,
                     "type": "simple",
@@ -20794,7 +19986,7 @@
 					"sign":"False",
 					"comment":"Help_not used in game"
            },
-       "98":{
+        "89":{
              "name": "veh_park",
                     "struc_count": 27,
                     "type": "struc",
@@ -21044,7 +20236,7 @@
                                   }
                       }
            },
-       "99":{
+        "90":{
                     "name": "veh_land_index",
 					"size": 2,
                     "type": "simple",
@@ -21052,7 +20244,7 @@
 					"sign":"False",
 					"comment":"No comment"
            },
-       "100":{
+        "91":{
              "name": "veh_land_struct",
                     "struc_count": 64,
                     "type": "struc",
@@ -21093,7 +20285,7 @@
                                   }
                       }
            },
-       "101":{
+        "92":{
                     "name": "dword_D4D0C_not_used",
 					"size": 4,
                     "type": "simple",
@@ -21101,7 +20293,7 @@
 					"sign":"False",
 					"comment":"Not used"
            },
-       "102":{
+       "93":{
                     "name": "selected_base",
 					"size": 2,
                     "type": "simple",
@@ -21109,7 +20301,7 @@
 					"sign":"False",
 					"comment":"No Comment"
            },
-       "103":{
+       "94":{
                     "name": "base_count",
 					"size": 2,
                     "type": "simple",
@@ -21117,7 +20309,7 @@
 					"sign":"False",
 					"comment":"No Comment"
            },
-       "104":{
+       "95":{
                     "name": "camera_coord_8",
 					"size": 2,
                     "type": "simple",
@@ -21125,7 +20317,7 @@
 					"sign":"False",
 					"comment":"No Comment"
            },
-       "105":{
+       "96":{
                     "name": "not_used_6_0",
 					"size": 2,
                     "type": "simple",
@@ -21133,7 +20325,7 @@
 					"sign":"False",
 					"comment":"No Comment"
            },
-       "106":{
+       "97":{
                     "name": "bld_for_attack",
                     "struc_count": 1,
                     "type": "struc",
@@ -21215,7 +20407,7 @@
                                   }
                       }
            },
-       "107":{
+       "98":{
                     "name": "log_count",
 					"size": 4,
                     "type": "simple",
@@ -21223,7 +20415,7 @@
 					"sign":"False",
 					"comment":"show only visible messages count"
            },
-       "108":{
+       "99":{
                     "name": "num_veh_for_next_gen",
 					"size": 2,
                     "type": "simple",
@@ -21231,7 +20423,7 @@
 					"sign":"False",
 					"comment":"No Comment"
            },
-       "109":{
+       "100":{
                     "name": "unused1",
 					"size": 2,
                     "type": "simple",
@@ -21239,7 +20431,7 @@
 					"sign":"False",
 					"comment":"Not used"
            },
-       "110":{
+       "101":{
                     "name": "veh_market",
                     "struc_count": 34,
                     "type": "struc",
@@ -21302,7 +20494,7 @@
                              }
 
            },
-       "111":{
+       "102":{
                     "name": "craft_equip_economic",
                     "struc_count": 49,
                     "type": "struc",
@@ -21365,7 +20557,7 @@
                              }
 
            },
-       "112":{
+       "103":{
                     "name": "amo_economic",
                     "struc_count": 44,
                     "type": "struc",
@@ -21428,7 +20620,7 @@
                              }
 
            },
-       "113":{
+       "104":{
                     "name": "alignment",
 					"size": 15,
                     "type": "simple",
@@ -21436,7 +20628,7 @@
 					"sign":"False",
 					"comment":"Empty"
            },
-       "114":{
+       "105":{
                     "name": "agent_eqv_economic",
                     "struc_count": 87,
                     "type": "struc",
@@ -21499,7 +20691,7 @@
                              }
 
            },
-       "115":{
+       "106":{
                     "name": "colapse_tile",
                     "struc_count": 50,
                     "type": "struc",
@@ -21539,7 +20731,7 @@
                                   }
                        }
            },
-       "116":{
+       "107":{
                     "name": "paedia_res_index",
                     "struc_count": 281,
                     "type": "struc",
@@ -21559,7 +20751,7 @@
                              }
 
         },
-       "117":{
+       "108":{
                     "name": "empty",
 					"size": 15,
 					"type": "simple",
@@ -21568,7 +20760,7 @@
 					"comment":"15 byte shift"
 
 			 },
-       "118":{
+       "109":{
                     "name": "spotted_alien_bld",
                     "struc_count": 110,
                     "type": "struc",
@@ -21615,14 +20807,14 @@
                                   }
                              }
             },
-       "119":{      "name": "junctions_count",
+       "110":{      "name": "junctions_count",
 					"size": 2,
                     "type": "simple",
 					"enum":"False",
 					"sign":"False",
 					"comment":"No Comment"
            },
-       "120":{
+       "111":{
                     "name": "score",
                     "struc_count": 16,
                     "type": "struc",
@@ -21641,7 +20833,7 @@
                                   }
                               }
            },
-       "121":{      "name": "diff_enum",
+       "112":{      "name": "diff_enum",
 					"size": 2,
                     "type": "simple",
 					"enum":"difficulty_level",
@@ -21650,7 +20842,7 @@
 					"comment":"No Comment"
 			},
 
-       "122":{
+       "113":{
                     "name": "UFO_Incursions_num",
 					"size": 2,
                     "type": "simple",
@@ -21658,7 +20850,7 @@
 					"sign":"False",
 					"comment":"No Comment"
            },
-       "123":{
+       "114":{
                     "name": "calc_fund_flag",
 					"size": 2,
                     "type": "simple",
@@ -21666,7 +20858,7 @@
 					"sign":"False",
 					"comment":"No Comment"
            },
-       "124":{
+       "115":{
                     "name": "agent_equip_artefacts",
                     "struc_count": 87,
                     "type": "struc",
@@ -21685,7 +20877,7 @@
                                   }
                              }
            },
-       "125":{
+       "116":{
                     "name": "equip_item_score_level",
                     "struc_count": 9,
                     "type": "struc",
@@ -21704,7 +20896,7 @@
                                   }
                              }
            },
-       "126":{
+       "117":{
                     "name": "Agent_unused",
                     "struc_count": 180,
                     "type": "struc",
@@ -21723,7 +20915,7 @@
                                   }
                              }
            },
-       "127":{
+       "118":{
                     "name": "week_count",
 					"size": 4,
                     "type": "simple",
@@ -21731,7 +20923,7 @@
 					"sign":"False",
 					"comment":"No Comment"
            },
-       "128":{
+       "119":{
                     "name": "Alien_Infiltration",
                     "struc_count": 27,
                     "type": "struc",
@@ -22135,7 +21327,7 @@
                                   }
                              }
            },
-       "129":{
+       "120":{
                     "name": "unuse_counter",
                     "struc_count": 10,
                     "type": "struc",
@@ -22154,7 +21346,7 @@
                                   }
                              }
            },
-       "130":{
+       "121":{
                     "name": "control_chamber_destroy_flag",
 					"size": 4,
                     "type": "simple",
@@ -22162,7 +21354,7 @@
 					"sign":"False",
 					"comment":"1-destroy,0-not"
            },
-       "131":{
+       "122":{
                     "name": "not_used_5",
 					"size": 4,
                     "type": "simple",
@@ -22170,7 +21362,7 @@
 					"sign":"False",
 					"comment":"No Comment"
            },
-       "132":{
+       "123":{
                     "name": "UFO_in_AD",
                     "struc_count": 10,
                     "type": "struc",
@@ -22189,7 +21381,7 @@
                                   }
                              }
            },
-       "133":{
+       "124":{
                     "name": "veh_equip_artefacts",
                     "struc_count": 49,
                     "type": "struc",
@@ -22208,7 +21400,7 @@
                                   }
                              }
            },
-       "134":{
+       "125":{
                     "name": "xcom_veh_park",
                     "struc_count": 34,
                     "type": "struc",
@@ -22227,7 +21419,7 @@
                                   }
                              }
            },
-       "135":{
+       "126":{
                     "name": "org_raid_timer",
 					"size": 4,
                     "type": "simple",
@@ -22235,7 +21427,7 @@
 					"sign":"False",
 					"comment":"org_raid_timer = 80 - 2 * diff_enum, calc in day"
            },
-       "136":{
+       "127":{
                     "name": "organized_crime",
                     "struc_count": 10,
                     "type": "struc",
@@ -22275,7 +21467,7 @@
                                   }
                              }
            },
-       "137":{
+       "128":{
                     "name": "agent_in_facility",
                     "struc_count": 16,
                     "type": "struc",
@@ -22540,7 +21732,7 @@
                              }
        },
 
-       "138":{
+       "129":{
                     "name": "agent_recovery",
                     "struc_count": 180,
                     "type": "struc",
@@ -22573,7 +21765,7 @@
                                   }
                              }
                       },
-       "139":{
+       "130":{
                     "name": "rel_tab",
 					"size": 4,
                     "type": "simple",
@@ -22582,7 +21774,7 @@
 					"sign":"False",
 					"comment":"No Comment"
            },
-       "140":{
+       "131":{
                     "name": "org_infiltr_on_graf",
                     "struc_count": 1,
                     "type": "struc",
@@ -22665,7 +21857,7 @@
                              }
                       },
 
-       "141":{
+       "132":{
                     "name": "infilt_graf_color",
                     "struc_count": 1,
                     "type": "struc",

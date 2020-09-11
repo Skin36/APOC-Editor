@@ -173,9 +173,10 @@
                     "31":"Advanced Alien Containment",
                     "32":"Workshop",
                     "33":"Advanced Workshop",
-                    "-53":"Part of the factory",
-                    "-54":"Part of the factory",
-                    "-55":"Part of the factory"
+                    "35":"bug",
+                    "201":"Part_201",
+                    "202":"Part_202",
+                    "203":"Part_203"
                    },
 	    "craft":{
                     "0":"Alien Probe",
@@ -933,6 +934,11 @@
 							"0":"not hired",
 							"2":"hired"
 							},
+		"hire_able":{
+							"1":"able",
+							"0":"not able"
+							},
+							
 		"gender":{
 							"0":"male",
 							"1":"female",
@@ -1265,7 +1271,8 @@
 				    "2":"friendly",
 				    "3":"neutral",
 				    "4":"unfriendly",
-				    "5":"hostle"
+				    "5":"hostle",
+				    "-392674":"unkn"
 				  },
 		"pod_direction":{
 		           "0":"None",
@@ -1439,7 +1446,6 @@
                    "42":"Disruptor Armor (head)"
 				  },
 
-
 	    "tab_sub_select":{
                     "0":"field_0",
                     "1":"base_sub_tab",
@@ -1452,6 +1458,37 @@
 					"8":"field_9",
 					"9":"field_10",
 					"10":"org_sub_tab"
+                   },
+	     "AI_control":{
+                    "0":"none",
+                    "1":"turret",
+					"99":"full"
+                   },
+				   
+	     "status_unit":{
+                    "0":"no_status",
+                    "1":"panic",
+					"2":"panic_2",
+					"3":"berserk",
+					"4":"frozen"
+                   },
+				   
+	    "unit_image":{
+                    "0":"xcom",
+                    "1":"egg",
+					"2":"brainsucer",
+					"3":"multiworm",
+					"4":"hyperworm",
+					"5":"chrysalis",
+					"6":"anthropod",
+					"7":"skeletoid",
+					"8":"spitter",
+					"9":"popper",
+					"10":"megaspawn",
+					"11":"psimorph",
+					"12":"queenspawn",
+					"21":"corporate_boss",
+					"-1":"not_use"
                    }
 
 
