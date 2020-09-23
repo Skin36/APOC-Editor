@@ -2,4 +2,5 @@ SAVEGAME
 editor/__pycache__
 editor/dump_ai/__pycache__
 editor/readsave/__pycache__
+editor/patcher/__pycache__
 

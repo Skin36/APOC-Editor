@@ -1,4 +1,5 @@
 from tkinter import filedialog as fd
+from patcher.read_patches import read_patch
 from editor.readsave.read_svg import read_save
 from editor.dump_ai.dump_ai import read_weap
 from editor.dump_ai.dump_ai import read_brain
@@ -19,6 +20,19 @@ def opensvg():
     fileOpen = fd.askopenfile(defaultextension=".0*", filetypes=[("All types", ".0*")], initialdir="./SAVEGAME")
     #ToolTp = Balloon()
     read_save(fileOpen.name,root)
+    root.mainloop()
+
+def openpatch():
+    root = Tk()
+    root.minsize(width=500, height=400)
+    root.title("Savegame editor")
+    def butCallback():
+        root.destroy()
+        mainScreen()
+    b1 = Button(text="Return", width=30, height=2, command=butCallback)
+    b1.grid(row=21, column=3, columnspan = 2)
+    #ToolTp = Balloon()
+    read_patch(root)
     root.mainloop()
 
 def openai():
@@ -133,10 +147,16 @@ def mainScreen():
     root.minsize(width=500, height=400)
     root.title("Apoc editor")
 
-    b1=Button(text="Cityscape editor", width=30, height=2)
+    #b1=Button(text="Cityscape editor", width=30, height=2)
+    b1=Button(text="Patcher", width=30, height=2)
     b2=Button(text="Cityscape files editor", width=30, height=2)
     b3=Button(text="Battlescape editor", width=30, height=2)
     b4=Button(text="Battlescape files editor", width=30, height=2)
+
+    def butCallback1():
+        root.destroy()
+        openpatch()
+    b1=Button(root, text='Patcher', width=30, height=2, command=butCallback1)
 
     def butCallback5():
         root.destroy()
