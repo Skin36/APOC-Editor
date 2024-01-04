@@ -10,9 +10,6 @@ struc_list.append(0)
 with open(os.path.join('editor','readsave','key_value.js'), encoding='utf8') as key_value:
     key_value = json.load(key_value)
 
-
-
-
 def read_save(file_save,root):
     # add dict for save strure
     if file_save[-11:-3]=="TACTGAME":
@@ -62,6 +59,9 @@ def read_save(file_save,root):
 
         var.set(0)
         field = {}
+        global selected
+        selected = {"name":None, "offsets":[]}
+
         def draw_label(event,entry,fld):
             entry_enum = []
             if entry["enum"] != "False":
@@ -95,6 +95,7 @@ def read_save(file_save,root):
                  + (str(entry['offset'])) + ")" + "\n"+ 'Comment: ' + entry['comment'])
             label_help = Label(label_part, width=31, height=19, bd=5, bg='gray', justify="left", text=txt,
                                relief=RIDGE, anchor = 'nw')
+           
             if entry['enum']=="False":
                 label_emp=Label(label_part, width=31, height=1)
                 label_emp.grid(row=1, column=0, columnspan=3)
@@ -124,6 +125,10 @@ def read_save(file_save,root):
                     field[str(val_)].config(state='readonly')
                 else:
                     field[str(val_)].insert(0, entry_['entry'])
+
+            selected["offsets"] = []
+            for entry_ in entry:
+                selected["offsets"].append(entry_["offset"])
 
             r_frame_buttons.update_idletasks()
             r_canvas.config(scrollregion=r_canvas.bbox("all"))
@@ -166,9 +171,10 @@ def read_save(file_save,root):
                     savef.seek(entry_['offset'])
                     if entry_['sign'] == "False":
                         if entry_['enum'] == "False":
-                                savef.write(int(field[str(val_)].get()).to_bytes(entry_['size'], byteorder='little', signed=False))
+                                if int(entry_["offset"]) in selected["offsets"]:
+                                    print(entry_)
+                                    savef.write(int(field[str(val_)].get()).to_bytes(entry_['size'], byteorder='little', signed=False))
                         else:
-                            print(entry_)
                             savef.write(entry_['entry'].to_bytes(entry_['size'], byteorder='little', signed=True))
                     elif entry_['sign']== "True":
                         savef.write(int(field[str(val_)].get()).to_bytes(entry_['size'], byteorder='little', signed=True))
@@ -282,7 +288,7 @@ def read_save(file_save,root):
 
             if sign_gl=="string":
                 entry = savef.read(size)
-                entry = entry.decode(encoding="ASCII").rstrip('\x00')
+                entry = entry.decode(encoding="latin").rstrip('\x00')
             elif sign_gl == "seek":
                 savef.seek(size, 1)
                 entry = size
@@ -316,7 +322,7 @@ def read_save(file_save,root):
                     offset = savef.tell()
                     entry = savef.read(size)
                     if sign_gl == "string":
-                        entry = entry.decode(encoding="ASCII").rstrip('\x00')
+                        entry = entry.decode(encoding="latin").rstrip('\x00')
                     elif sign_gl == "False":
                             entry = int.from_bytes(entry, byteorder='little', signed=False)
                     elif sign_gl == "True":
